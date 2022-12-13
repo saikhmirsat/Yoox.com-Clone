@@ -1,0 +1,89 @@
+{
+    "women": [
+      {
+        "id": 1,
+        "category":"Clothing",
+        "title": "STELLA MCCARTNEY",
+        "type": "Sweaters",
+        "price":1027.00,
+        "off":34,
+        "size":[38,40],
+        "image_1":"https://www.yoox.com/images/items/14/14295830IB_14_f.jpg?impolicy=crop&width=387&height=490",
+        "image_2":"https://www.yoox.com/images/items/14/14295830IB_14_r.jpg?impolicy=crop&width=387&height=490",
+        "image_3":"https://www.yoox.com/images/items/14/14295830IB_14_d.jpg?impolicy=crop&width=387&height=490",
+        "image_4":"https://www.yoox.com/images/items/14/14295830IB_14_a.jpg?impolicy=crop&width=387&height=490",
+        "tag":"https://www.yoox.com/media/yoox14/sections/sr/badge/badge_new_2018n.png",
+        "colors":["pink"],
+        "sleeve_style":"Long sleeve",
+        "zip_structure":"No zip",
+        "designers":"",
+        "materials":"wool",
+        "print":"Stripes"
+     },
+     {
+        "id": 2,
+        "category":"Accessories",
+        "title": "APM MONACO",
+        "type": "Earrings",
+        "price":139.00,
+        "off":0,
+        "size":[],
+        "image_1":"https://www.yoox.com/images/items/50/50294257EM_14_f.jpg?impolicy=crop&width=387&height=490",
+        "image_2":"https://www.yoox.com/images/items/50/50294257EM_14_r.jpg?impolicy=crop&width=387&height=490",
+        "image_3":"https://www.yoox.com/images/items/50/50294257EM_14_e.jpg?impolicy=crop&width=387&height=490",
+        "image_4":"",
+        "tag":"https://www.yoox.com/media/yoox14/sections/sr/badge/badge_new_2018n.png",
+        "colors":["gold"],
+        "sleeve_style":"",
+        "zip_structure":"",
+        "designers":"",
+        "materials":"metals",
+        "print":""
+     }
+    ],
+    "men": [
+      {
+        "id": 1,
+        "category":"",
+        "title": "",
+        "type": "",
+        "price":0,
+        "off":0,
+        "size":[],
+        "image_1":"",
+        "image_2":"",
+        "image_3":"",
+        "image_4":"",
+        "tag":"",
+        "colors":[],
+        "sleeve_style":"",
+        "zip_structure":"",
+        "designers":"",
+        "materials":"",
+        "print":""
+     }
+    ],
+    "kids": [
+      {
+        "id": 1,
+        "category":"",
+        "title": "",
+        "type": "",
+        "price":0,
+        "off":0,
+        "size":[],
+        "image_1":"",
+        "image_2":"",
+        "image_3":"",
+        "image_4":"",
+        "tag":"",
+        "colors":[],
+        "sleeve_style":"",
+        "zip_structure":"",
+        "designers":"",
+        "materials":"",
+        "print":""
+     }
+    ],
+    "profile": { "name": "typicode" }
+  }
