@@ -21,7 +21,7 @@ Member 3- fw20_0043 - Ujjawal Kumar <br/>
 Areas of responsibilities: Kids page
 
 Member 4- fw20_0311 - Shoaib Akhtar Sherani <br/>
-Areas of responsibilities: Design & Art page
+Areas of responsibilities: Design & Art page and Search Part
 
 IA Manager- Om Prakash
 
