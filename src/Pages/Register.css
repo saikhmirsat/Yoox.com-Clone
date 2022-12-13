@@ -1,0 +1,74 @@
+.doted-line {
+    background: url("https://www.yoox.com/media/yoox16/myoox/border_dotted_big.png") repeat-x 0 100%;
+    height: 9px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+
+.register-1st-con {
+    background-color: rgb(238, 236, 236);
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.myoox {
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.register-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.register-2nd-container {
+    width: 30%;
+    margin: auto;
+}
+
+.register-fb-gl>button {
+    width: 104%;
+    height: 50px;
+    margin-bottom: 25px;
+
+}
+
+.register-fb-gl>button>img {
+    width: 5%;
+}
+
+.register-2nd-container>div>input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 25px;
+    border: none;
+    background-color: rgb(239, 241, 243);
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    outline: none;
+}
+
+.reg-mini-para {
+    text-align: left;
+    font-size: 12px;
+
+}
+
+.register-button {
+    width: 100%;
+    height: 40px;
+    font-weight: bolder;
+    background-color: #333333;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.register-footer {
+    background-color: #333333;
+    padding: 70px 0px;
+    color: white;
+    font-size: 12px;
+}
