@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Home from './Home';
+import Navbar from './Components/Navbar/Navbar'
+import Navbar2 from './Components/Navbar/Navbar2';
+import Allroutes from './Routes/Allroutes';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Navbar />
+      <Navbar2 />
+      <Allroutes />
     </div>
   );
 }

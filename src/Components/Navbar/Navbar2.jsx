@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+
 import { Link } from 'react-router-dom'
 import { TiHeartOutline } from 'react-icons/ti';
 import { FaSearch } from 'react-icons/fa';
