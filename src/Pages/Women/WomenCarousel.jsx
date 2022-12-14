@@ -1,8 +1,5 @@
 import React from 'react'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import '@coreui/coreui/dist/css/coreui.min.css'
-import { CCarousel,CCarouselItem,CImage } from '@coreui/react'
+
 
 const WomenCarousel = () => {
 
@@ -75,23 +72,8 @@ const WomenCarousel = () => {
       ]
 
   return (
-    <CCarousel style={{backgroundColor:"black"}} controls>
-        <CCarouselItem style={{width:"100px"}} >
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/50/50294257EM_14_f.jpg" width="100px" alt="slide 1" />
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/50/50294257EM_14_f.jpg" width="100px" alt="slide 1" />
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/50/50294257EM_14_f.jpg" width="100px" alt="slide 1" />
-        </CCarouselItem>
-        <CCarouselItem style={{width:"100px"}}>
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/13/13909917KN_14_f.jpg" width="100px" alt="slide 2" />
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/13/13909917KN_14_f.jpg" width="100px" alt="slide 2" />
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/13/13909917KN_14_f.jpg" width="100px" alt="slide 2" />
-        </CCarouselItem>
-        <CCarouselItem style={{width:"100px"}}>
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/45/45717732NW_14_f.jpg" width="100px" alt="slide 3" />
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/45/45717732NW_14_f.jpg" width="100px" alt="slide 3" />
-            <CImage className="d-block w-100" src="https://www.yoox.com/images/items/45/45717732NW_14_f.jpg" width="100px" alt="slide 3" />
-        </CCarouselItem>
-    </CCarousel>
+    <>
+    </>
   )
 }
 
