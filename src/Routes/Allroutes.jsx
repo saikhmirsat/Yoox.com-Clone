@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Cart from '../Pages/Cart'
-import DesignArt from '../Pages/DesignArt'
+// import DesignArt from '../Pages/DesignArt/DesignArt'
 import Kids from '../Pages/Kids'
-import Men from '../Pages/Men'
+import Men from '../Pages/Men/Men'
 import Register from '../Pages/Register'
 import Wishlist from '../Pages/Wishlist'
-import Women from '../Pages/Women'
+import Women from '../Pages/Women/Women'
 import Login from '../Pages/Login'
 import Admin from '../Pages/Admin'
 import Search from '../Pages/Search'
@@ -17,7 +17,7 @@ export default function Allroutes() {
             <Route path='/women' element={<Women />}></Route>
             <Route path='/men' element={<Men />}></Route>
             <Route path='/kids' element={<Kids />}></Route>
-            <Route path='/design' element={<DesignArt />}></Route>
+            {/* <Route path='/design' element={<DesignArt />}></Route> */}
             <Route path='/wishlist' element={<Wishlist />}></Route>
             <Route path='/search' element={<Search />}></Route>
             <Route path='/cart' element={<Cart />}></Route>

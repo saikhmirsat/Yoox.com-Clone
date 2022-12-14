@@ -6,10 +6,11 @@
     font-weight: bold;
     font-size: 12px;
     width: 67%;
-    margin: auto;
+    margin-left: 200px;
     height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    /* position: fixed; */
 }
 
 .navbar-1-divs {
