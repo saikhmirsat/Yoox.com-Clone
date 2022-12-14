@@ -8,8 +8,9 @@ import { BsFillHandbagFill } from 'react-icons/bs';
 
 export default function Navbar2() {
     return (
+        // 
         <div>
-            <div className='navbar-2'>
+            <div  className='navbar-2'>
 
                 <div className='navbar-2-1st-div'>
                     <Link to="/women"><h3>WOMEN</h3></Link>

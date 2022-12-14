@@ -1,0 +1,153 @@
+import React from 'react'
+import WomenNavbar from './MenNavbar'
+import "../Women/women.css"
+
+export default function Women() {
+
+  
+  return (
+    <div style={{backgroundColor:"#f3f3f3"}} >
+      <WomenNavbar />
+      <div className='first-container' >
+        <img src="https://www.yoox.com/images/yoox80/banners/6895_1_Genz_WM_Main.png" width="1340px" height="640px"  alt="" />
+        <div className='here-comes-night' >
+          <h2>HERE COMES THE NIGHT</h2>
+          <p>Rock-inspired leather looks and daring details</p>
+          <div>
+            <span>GET THE LOOK</span>
+            <span className='discover' >DISCOVER MORE</span>
+            
+          </div>
+          <br />
+        </div>
+      </div>
+
+      <div className='designers-container' >
+        <div className="designer-item">
+          <img src="https://www.yoox.com/images/yoox80/banners/6824_3_WinterChecklist_HL_M.jpg" alt="" />
+          <div className='designer-item-div' >
+          <h2>IT'S COLD OUTSIDE</h2>
+          <p>Everything you need to stay warm this winter</p>
+          <div>
+            <span>SHOP NOW </span>
+            
+            
+          </div>
+          <br />
+        </div>
+        </div>
+        <div className="designers-list">
+          <h4>DESIGNERS</h4>
+          <div>
+            <p>DOLCE & GABBANA</p>
+            <p>ROBERTO CAVALp</p>
+            <p>DSQUARED2</p>
+            <p>MARNI</p>
+            <p>CHLOE</p>
+            <p>MAISON MARGIELA</p>
+            <p>STELLA MCCARTNEY</p>
+            <p>BALENCIAGA</p>
+            <p>GUCCI</p>
+            <p>PRADA</p>
+          </div>
+          <p className='view_all' > View All </p>
+        </div>
+        <div className="designer-item">
+         <img src="https://www.yoox.com/images/yoox80/banners/6824_1_TrendSpace_HL_M.jpg" alt="" />
+         <div className='designer-item-div' >
+          <h2>WOW AT FIRST SIGHT</h2>
+          <p>Special gifts that will leave them speechless</p>
+          <div>
+            <span>SHOP THE MAGIC </span>
+            <span className='discover' >DISCOVER MORE</span>
+            
+          </div>
+          <br />
+        </div>
+        </div>
+      </div>
+
+
+
+      {/* <div className="new-arrivals">
+        <h2>NEW ARRIVALS</h2>
+        <p >VIEW ALL</p>
+        <div className="new-arrival-container">
+          <div className="new-arrival-container-item">
+            
+            <h4></h4>
+            <p>Sweater</p>
+            <p>34% OFF</p>
+            <p>US$ 671.00</p>
+          </div>
+          <div className="new-arrival-container-item">
+            <img src="" alt="" />
+            <h4>  </h4>
+            <p></p>
+            <p></p>
+            
+          </div>
+          <div className="new-arrival-container-item">
+            <img src="https://www.yoox.com/images/items/13/13909917KN_14_f.jpg?impolicy=crop&width=306&height=390" alt="" />
+            <h4>MSGM</h4>
+            <p>Casual pants</p>
+            <p>27% OFF</p>
+            <p>US$ 282.00</p>
+          </div>
+        </div>
+      </div> */}
+
+      
+        {/* <div className="new-arrivals">
+            {
+              new_arrivals_data.map((item,i) => 
+              <div className="new-arrival-container">
+                <div className="new-arrival-container-item">
+                  <img src={item.img} alt="" />
+                  <h4> {item.brand} </h4>
+                  <p> {item.category} </p>
+                  <p> {item.discount} </p>
+                  <p> {item.price} </p>
+              </div>
+              </div> )
+            }
+        </div> */}
+
+        <div className="brands-container">
+          <div className="brands-container-item">
+            <img src="https://www.yoox.com/images/yoox80/banners/6825_3_BaumeMercier_Tris_M.png  " alt="" />
+            <h2>BAUME & MERCIER</h2>
+            <p>The New Riviera Collection</p>
+          </div>
+          <div id='brands-container-item' className="brands-container-item">
+            <img src="https://www.yoox.com/images/yoox80/banners/6825_1_Boss_M_Tris.jpg" alt="" />
+            <h2>BOSS</h2>
+            <p>Be your own BOSS</p>
+          </div>
+          <div className="brands-container-item">
+            <img src="https://www.yoox.com/images/yoox80/banners/6825_6_Montblanc_M_Tris.jpg" alt="" />
+            <h2>MONTBLANC</h2>
+            <p>The New Gift Generation</p>
+          </div>
+        </div>
+
+        <div className='last-div'>
+            <img src="https://www.yoox.com/images/yoox80/banners/6824_1_XmasGift_WM_Bottom.jpg" alt="" />
+            <div className='last-div-item' >
+                <h2>WOW AT FIRST SIGHT</h2>
+                <p>Special gifts that will leave them speechless</p>
+                <div>
+                    <span>SHOP THE MAGIC </span>
+                    <span className='discover-more' >DISCOVER MORE</span>
+                    
+                </div>
+                <br />
+                </div>
+        </div>
+        
+      
+
+
+    </div>
+  )
+}

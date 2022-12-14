@@ -1,0 +1,36 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #333;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* position: fixed; */
+    /* margin-left: 250px; */
+    padding: 0;
+    margin-top: 0;
+
+}
+
+.navbar-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+.navbar-item:hover{
+    color: gray;
+    transition: all 0.5s ease-out;
+}
+#gift-guide{
+    background-color: #CA336E;
+    line-height: 30px;
+    padding: 5px 5px 5px 25px;
+}
