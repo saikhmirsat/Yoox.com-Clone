@@ -1,10 +1,50 @@
 import React from 'react'
+import { useState } from 'react'
 import "./Register.css"
+// import { RegisterData } from '../Context/RegisterData'
+import { useNavigate } from 'react-router-dom'
+import axios from 'axios'
 
-export default function
-    div() {
+export default function Register() {
+    const navigate = useNavigate()
+
+    // const { Arr, setArr } = React.useContext(RegisterData)
+    // console.log(Arr)
+
+    const [Arr, setArr] = useState([])
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    const [mobile, setMobile] = useState("")
+    const [dob, setDob] = useState("")
+    const [check, setCheck] = useState(false)
+
+    const PostRegister = (obj) => {
+        return axios.post(`https://mirsat-vercel-database.vercel.app/RegisterYoox`, obj)
+    }
+
+    const RegisterFun = () => {
+        let obj = {
+            firstName,
+            lastName,
+            email,
+            password,
+            mobile,
+            dob
+        }
+        setArr([...Arr, obj])
+        console.log(Arr)
+        PostRegister(obj)
+        alert("Success")
+        navigate('/login')
+    }
+
+
+
+
     return (
-        <div>
+        <div className='register-main-con'>
             <div className='doted-line'></div>
             <div className='register-1st-con'>
                 <h2 className='myoox'>MYOOX</h2>
@@ -20,10 +60,10 @@ export default function
                 </div>
                 <div >
                     <p>OR WITH YOUR EMAIL</p>
-                    <input type="text" placeholder='FIRST NAME*' />
-                    <input type="text" placeholder='LAST NAME*' />
-                    <input type="text" placeholder='EMAIL*' />
-                    <input type="password" placeholder='PASSWORD*' />
+                    <input type="text" placeholder='FIRST NAME*' onChange={(e) => setFirstName(e.target.value)} />
+                    <input type="text" placeholder='LAST NAME*' onChange={(e) => setLastName(e.target.value)} />
+                    <input type="text" placeholder='EMAIL*' onChange={(e) => setEmail(e.target.value)} />
+                    <input type="password" placeholder='PASSWORD*' onChange={(e) => setPassword(e.target.value)} />
                     <p className='reg-mini-para'>Personalize your shopping experience.</p>
 
                     <div style={{ display: 'flex', gap: '100px', fontSize: '18px' }}>
@@ -35,19 +75,19 @@ export default function
                         </div>
                     </div>
                     <p className='reg-mini-para'>If you are over 18 years old, celebrate your birthday with us: We have a surprise for you.</p>
-                    <input type="number" placeholder='DATE OF BIRTH' />
+                    <input type="text" placeholder='DATE OF BIRTH' onChange={(e) => setDob(e.target.value)} />
                     <p style={{ textAlign: 'left', fontSize: '15px' }}>CELL PHONE</p>
-                    <input type="number" placeholder='MOBILE NUMBER' />
+                    <input type="number" placeholder='MOBILE NUMBER' onChange={(e) => setMobile(e.target.value)} />
                     <p className='reg-mini-para'>By entering your phone number, you agree to be contacted by SMS for marketing and promotional purposes.</p>
                     <p className='reg-mini-para' style={{ backgroundColor: '#f6f6f6', marginTop: '50px' }}>I declare that I have read and accept the MYOOX Terms and Conditions of Use</p>
                     <div style={{ display: 'flex', gap: '20px', backgroundColor: '#f6f6f6' }}>
-                        <input type="checkbox" />
+                        <input type="checkbox" onChange={(e) => setCheck(e.target.checked)} />
                         <p className='reg-mini-para'>I agree to the use of my personal data in order to be updated on new arrivals, informed about exclusive items and contacted as part of targeted marketing initiatives related to services offered by YOOX.
                             By analyzing my personal data, order history and browsing habits, YOOX can improve my shopping experience with suggestions that correspond to my interests.
                             For further information, please consult the Privacy Policy.</p>
                     </div>
                 </div>
-                <button className='register-button'>REGISTER</button>
+                <button className={check ? 'register-button' : 'disable-btn'} disabled={!check} onClick={RegisterFun}>REGISTER</button>
             </div>
             <div className='doted-line' style={{ marginTop: '80px' }}></div>
             <div className='register-footer'>

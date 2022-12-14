@@ -5,9 +5,12 @@ import { BsFillPencilFill } from 'react-icons/bs';
 import { AiFillUnlock } from 'react-icons/ai';
 import { RiAdminFill } from 'react-icons/ri';
 import { MdArrowDropDown } from 'react-icons/md';
+import { BsFillPersonFill } from 'react-icons/bs';
+
 
 
 export default function Navbar() {
+    const checkIsAuth = JSON.parse(localStorage.getItem("isAuth"))
     return (
         <div className='navbar'>
             <div className='navbar-1'>
@@ -19,8 +22,8 @@ export default function Navbar() {
                     <p>WANT TO RECEIVE YOUR GIFTS IN TIME?  |</p><p>DISCOVER MORE</p>
                 </div>
                 <div className='navbar-1-divs'>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}><BsFillPencilFill /><Link to="/register">REGISTER</Link></div>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}> <AiFillUnlock /><Link to="/login">LOGIN</Link></div>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}>{checkIsAuth ? "" : <BsFillPencilFill />}<Link to="/register">{checkIsAuth ? "" : "Register"}</Link></div>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}>{checkIsAuth ? <BsFillPersonFill /> : <AiFillUnlock />} <Link to="/login">{checkIsAuth ? "MYOOX" : "LOGIN"}</Link></div>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}> <RiAdminFill /><Link to="/admin">ADMIN</Link></div>
                 </div>
             </div>
