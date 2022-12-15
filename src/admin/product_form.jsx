@@ -1,46 +1,82 @@
-import React, { useState } from 'react'
-// import Admin from './AdiminIndex'
-import AdminIndex from './AdminIndex'
-import "./product_form.css"
 
+import React, { useState } from "react";
+import "./product_form.css";
+import axios from "axios"
+import AdminIndex from "./AdminIndex"
 
 const initialData = {
-  "id": 1,
-  "for_whom": "",
-  "category": "",
-  "title": "",
-  "type": "",
-  "price": "",
-  "offer": "",
-  "size": "",
-  "image_1": "",
-  "image_2": "",
-  "image_3": "",
-  "image_4": "",
-  "tag": "",
-  "color": "",
-  "sleeve": "",
-  "zip_structure": "",
-  "materials": "",
-  "print": ""
-}
+  for_whom: "",
+  category: "",
+  title: "",
+  type: "",
+  price: "",
+  offer: "",
+  size: "",
+  image_1: "",
+  image_2: "",
+  image_3: "",
+  image_4: "",
+  tag: "",
+  color: "",
+  sleeve: "",
+  zip_structure: "",
+  materials: "",
+  print: "",
+};
 
 const ProductDetails = () => {
-  const [formData, setFormData] = useState(initialData)
-  const [data, setData] = useState({})
-
+  const [formData, setFormData] = useState(initialData);
+  const [data, setData] = useState([]);
 
   const handleChange = (e) => {
     let { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
-  const { id, for_whom, category, title, type, price, offer, size, image_1, image_2, image_3, image_4, tag, color, sleeve, zip_structure, materials, print } = formData;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+  const {
+    for_whom,
+    category,
+    title,
+    type,
+    price,
+    offer,
+    size,
+    image_1,
+    image_2,
+    image_3,
+    image_4,
+    tag,
+    color,
+    sleeve,
+    zip_structure,
+    materials,
+    print,
+  } = formData;
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setData({ id, for_whom, category, title, type, price, offer, size, image_1, image_2, image_3, image_4, tag, color, sleeve, zip_structure, materials, print });
+  const handleSubmit = async(e) => {
+    e.preventDefault();
+    const request={
+      for_whom,
+      category,
+      title,
+      type,
+      price,
+      offer,
+      size,
+      image_1,
+      image_2,
+      image_3,
+      image_4,
+      tag,
+      color,
+      sleeve,
+      zip_structure,
+      materials,
+      print,
+    };
+    const res=await  axios.post(`http://localhost:5050/products`,request)
+    setData([...data,res])
   }
-  console.log(data)
+  console.log(data);
   return (
     <div >
       <div>
@@ -183,4 +219,4 @@ const ProductDetails = () => {
   )
 }
 
-export default ProductDetails
+export default ProductDetails;
