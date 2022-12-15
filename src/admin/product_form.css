@@ -1,0 +1,19 @@
+.product_details{
+
+margin: auto;
+width: fit-content;
+}
+.product_details>form>label{
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.product_details>form>input[type="submit"]{
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
