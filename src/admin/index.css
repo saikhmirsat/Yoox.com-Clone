@@ -1,0 +1,17 @@
+.admin_heading{
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    padding: 10px;
+    position: relative;
+}
+
+.admin_heading>a{
+ font-size: 30px;
+ text-decoration: none;
+ color: white;
+}
+.admin_heading>a:hover{
+    color: red;
+    cursor: pointer;
+}

@@ -8,7 +8,8 @@ import Register from '../Pages/Register'
 import Wishlist from '../Pages/Wishlist'
 import Women from '../Pages/Women/Women'
 import Login from '../Pages/Login'
-import Admin from '../Pages/Admin'
+//import Admin from '../Pages/Admin'
+import Admin from "../admin/index"
 import Search from '../Pages/Search'
 
 export default function Allroutes() {
