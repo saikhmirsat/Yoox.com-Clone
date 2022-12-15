@@ -142,7 +142,7 @@ export default function Login() {
     )
   } else {
     return (
-      <div style={{ backgroundColor: '#f3f3f3' }}>
+      <div className='login-con' >
         <div className='login-line-dotten'></div>
         <h3 style={{ marginBottom: '-15px', marginTop: '50px' }}>MYOOX</h3>
         <p style={{ fontWeight: 'normal', fontSize: '15px', marginBottom: '30px' }}>LOG IN</p>

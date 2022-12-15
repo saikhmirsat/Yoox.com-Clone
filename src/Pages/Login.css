@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+.login-con {
+    border: 1px solid red;
+    background-color: #f3f3f3;
+}
+
 .login-main-con {
     width: 60%;
     margin: auto;
@@ -63,16 +68,35 @@
 }
 
 @media screen and (max-width:820px) {
-    .login-line-dotten {
+    /* .login-line-dotten {
         width: 150%;
-    }
+    } */
 
     .login-con {
         width: 150%;
     }
 
     .login-main-con {
-        border: 1px solid red;
-        /* width: 120%; */
+        /* border: 1px solid red; */
+        width: 80%;
     }
+}
+
+@media screen and (max-width:480px) {
+    .login-con {
+        border: 1px solid red;
+        width: 208%;
+    }
+
+    .login-line-dotten {
+        /* width: 150%; */
+    }
+
+    .login-main-con {
+        border: 1px solid goldenrod;
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
 }

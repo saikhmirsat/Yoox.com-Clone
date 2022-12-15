@@ -61,13 +61,16 @@ export default function AdminLogin() {
         navigate('/adminIndex')
     }
 
+    const registerFunc = () => {
+        navigate('/register')
+    }
 
     if (checkIsAuth === true) {
         return (
             <div style={{ background: '#f3f3f3' }}>
                 <div className='Profile-1st-con'>
                     <div>
-                        <h2>MYOOX</h2>
+                        <h2>ADMIN YOOX</h2>
                         <button onClick={dashboardFunc} style={{ backgroundColor: 'orange', marginBottom: '20px' }}>Goto Dashboard</button> <br />
                         <button onClick={logoutFunc}>Logout</button>
                         <p>This area of YOOX is designed exclusively for you</p>
@@ -171,7 +174,7 @@ export default function AdminLogin() {
                             <button style={{ backgroundColor: 'white', border: '2px solid rgb(224, 221, 221)' }}><img width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png" alt="" /></button>
                         </div>
                         <p>ARE YOU NEW TO YOOX?</p>
-                        <button className='log-reg-btn'>REGISTER NOW</button>
+                        <button className='log-reg-btn' onClick={registerFunc}>REGISTER NOW</button>
                     </div>
                 </div>
                 <p style={{ fontSize: '10px', marginBottom: '100px' }}>For more information, please consult the Privacy Policy</p>

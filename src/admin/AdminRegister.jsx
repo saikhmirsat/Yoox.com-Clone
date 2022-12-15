@@ -92,7 +92,7 @@ export default function AdminRegister() {
                         </div>
                     </div>
                     <button className={check ? 'register-button' : 'disable-btn'} disabled={!check} onClick={RegisterFun}>REGISTER</button>
-                    <p>if u have already account</p> <button onClick={navigateLogin}>loogin</button>
+                    <p>if u have already account</p> <button onClick={navigateLogin}>LogIn</button>
                 </div>
                 <div className='doted-line' style={{ marginTop: '80px' }}></div>
                 <div className='register-footer'>
