@@ -1,4 +1,5 @@
 import React from 'react'
+import './Login.css'
 import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
@@ -141,10 +142,36 @@ export default function Login() {
     )
   } else {
     return (
-      <div>Login
-        <input type="text" placeholder='email' onChange={(e) => setEmail(e.target.value)} />
-        <input type="password" placeholder='password' onChange={(e) => setPassword(e.target.value)} />
-        <button onClick={LoginFunc}>{checkIsAuth ? "Logout" : "Login"}</button>
+      <div style={{ backgroundColor: '#f3f3f3' }}>
+        <div className='login-line-dotten'></div>
+        <h3 style={{ marginBottom: '-15px', marginTop: '50px' }}>MYOOX</h3>
+        <p style={{ fontWeight: 'normal', fontSize: '15px', marginBottom: '30px' }}>LOG IN</p>
+        <div className='login-main-con'>
+          <div className='login-main-con-child-1'>
+            <p>SIGN IN WITH YOUR E-MAIL ADDRESS</p>
+            <input style={{ marginBottom: '25px' }} type="text" placeholder='E-MAIL' onChange={(e) => setEmail(e.target.value)} />
+            <input type="password" placeholder='PASSWORD' onChange={(e) => setPassword(e.target.value)} />
+            <p style={{ textAlign: 'right', fontSize: '12px', textDecoration: 'underline' }}>Forgot your password?</p>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <p>INDIA</p>
+              <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+                <input type="checkbox" /><p style={{ color: 'grey', fontStyle: 'italic', fontWeight: 'normal', fontSize: '13px' }}>Remember Me</p>
+              </div>
+            </div>
+            <button onClick={LoginFunc}>{checkIsAuth ? "Logout" : "LOG IN"}</button>
+          </div>
+          <div className='login-main-con-child-2'>
+            <p>OR LOG IN WITH</p>
+            <div className='log-main-child-2-box'>
+              <button style={{ backgroundColor: '#3d5a98', border: 'none' }}> <img width="30px" src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19751.png" alt="" /></button>
+              <button style={{ backgroundColor: 'white', border: '2px solid rgb(224, 221, 221)' }}><img width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png" alt="" /></button>
+            </div>
+            <p>ARE YOU NEW TO YOOX?</p>
+            <button className='log-reg-btn'>REGISTER NOW</button>
+          </div>
+        </div>
+        <p style={{ fontSize: '10px', marginBottom: '100px' }}>For more information, please consult the Privacy Policy</p>
+        <div className='login-line-dotten'></div>
       </div>
     )
   }
