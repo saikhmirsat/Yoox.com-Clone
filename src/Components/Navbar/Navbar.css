@@ -84,14 +84,15 @@
     .navbar-1 {
         font-size: 8px;
         /* border: 1px solid red; */
-        width: 115%;
+        width: 141%;
         padding: 5px 10px;
         height: 10px;
+        margin-left: 0px;
     }
 
     .navbar-2 {
         /* border: 1px solid gold; */
-        width: 112.5%;
+        width: 138%;
         padding: 5px 20px;
     }
 
@@ -111,14 +112,16 @@
 
 @media screen and (max-width:480px) {
     .navbar-1 {
+        /* border: 1px solid red; */
         font-size: 8px;
-        width: 150%;
+        width: 210%;
+        margin-left: 0px;
         /* height: 10px; */
     }
 
     .navbar-2 {
         /* border: 1px solid red; */
-        width: 144%;
+        width: 205%;
     }
 
     .navbar-2-1st-div>a>h3 {
