@@ -61,7 +61,7 @@ export default function Login() {
 
   if (checkIsAuth === true) {
     return (
-      <div style={{ background: '#f3f3f3' }}>
+      <div className='profile-main-con'>
         <div className='Profile-1st-con'>
           <div>
             <h2>MYOOX</h2>

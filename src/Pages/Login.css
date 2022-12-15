@@ -7,21 +7,22 @@
 .login-con {
     border: 1px solid red;
     background-color: #f3f3f3;
+    text-align: center;
 }
 
 .login-main-con {
     width: 60%;
     margin: auto;
     /* border: 1px solid red; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     gap: 80px;
     background-color: white;
     padding: 30px;
 }
 
 .login-main-con>div {
-    /* border: 1px solid gold; */
+    width: 50%;
 }
 
 .login-main-con-child-1>input {
@@ -88,15 +89,12 @@
         width: 208%;
     }
 
-    .login-line-dotten {
-        /* width: 150%; */
-    }
-
     .login-main-con {
-        border: 1px solid goldenrod;
+        border: 1px solid red;
         flex-direction: column-reverse;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
     }
 
+    .login-main-con>div {
+        width: 100%;
+    }
 }
