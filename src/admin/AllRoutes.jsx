@@ -20,4 +20,4 @@ const AllRoutes = () => {
   )
 }
 
-export default AllRoutes
+export default AdminAllRoutes

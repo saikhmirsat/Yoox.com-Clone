@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
+import Admin from '.'
 import "./product_form.css"
 
 
 const initialData={
   "id": 1,
-  "whom":"",
+  "for_whom":"",
   "category":"",
   "title": "",
   "type": "",
@@ -32,21 +33,24 @@ const handleChange=(e)=>{
   let {name,value}=e.target;
   setFormData((prev)=>({...prev,[name]:value}))
 }
-const { id,whom,category,title,type,price,offer,size,image_1,image_2,image_3,image_4,tag,color,sleeve,zip_structure,materials,print}=formData;
+const { id,for_whom,category,title,type,price,offer,size,image_1,image_2,image_3,image_4,tag,color,sleeve,zip_structure,materials,print}=formData;
 
 const handleSubmit=(e)=>{
   e.preventDefault()
-  setData({id,whom,category,title,type,price,offer,size,image_1,image_2,image_3,image_4,tag,color,sleeve,zip_structure,materials,print});
+  setData({id,for_whom,category,title,type,price,offer,size,image_1,image_2,image_3,image_4,tag,color,sleeve,zip_structure,materials,print});
 }
 console.log(data)
   return (
     <div >
+      <div>
+        <Admin/>
+      </div>
       <hr />
       <div className='product_details'>
       <form onSubmit={handleSubmit}>
         <label htmlFor="">
          1. For whom : 
-        <select name="whom" value={whom} onChange={handleChange}>
+        <select name="for_whom" value={for_whom} onChange={handleChange}>
           <option value="men">MEN</option>
           <option value="women">WOMEN</option>
           <option value="kids">KIDS</option>

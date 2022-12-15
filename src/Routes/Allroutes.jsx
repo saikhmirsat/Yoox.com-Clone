@@ -8,11 +8,12 @@ import Register from '../Pages/Register'
 import Wishlist from '../Pages/Wishlist'
 import Women from '../Pages/Women/Women'
 import Login from '../Pages/Login'
-//import Admin from '../Pages/Admin'
 import AdminRegister from "../admin/AdminRegister"
 import Search from '../Pages/Search'
 import AdminLogin from '../admin/AdminLogin'
 import AdminIndex from '../admin/AdminIndex'
+import ProductDetails from '../admin/product_form'
+import Dashboard from '../admin/dashboard'
 
 export default function Allroutes() {
     return (
@@ -29,6 +30,8 @@ export default function Allroutes() {
             <Route path='/adminRegister' element={<AdminRegister />}></Route>
             <Route path='/adminLogin' element={<AdminLogin />}></Route>
             <Route path='/adminIndex' element={<AdminIndex />}></Route>
-        </Routes>
+            <Route path="/add_products" element={<ProductDetails />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+        </Routes >
     )
 }
