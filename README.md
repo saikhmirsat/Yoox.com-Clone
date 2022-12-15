@@ -9,19 +9,16 @@ Duration - 5days
 Project name- yoox.my
 
 Team lead- fw19_0481 - Saikh Mirsat; <br/>
-Areas of responsibilities: Navbar, Admin page, Signup and Login
-
-Member 1- fp05_327 - Rajesh Ranjan <br/>
-Areas of responsibilities: Men and Women page
+Areas of responsibilities: Navbar, Admin signup and login functionality, User Signup and Login
 
 Member 2- fw18_0294 - MD Sakil Ahmed <br/>
-Areas of responsibilities: Cart section
+Areas of responsibilities: Admin functionality ,delete,add.
 
 Member 3- fw20_0043 - Ujjawal Kumar <br/>
-Areas of responsibilities: Kids page
+Areas of responsibilities: Kids page, design page
 
 Member 4- fw20_0311 - Shoaib Akhtar Sherani <br/>
-Areas of responsibilities: Design & Art page and Search Part
+Areas of responsibilities: Mens, Womens, cart and wishlist
 
 IA Manager- Om Prakash
 
