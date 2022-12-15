@@ -24,7 +24,7 @@ export default function Navbar() {
                 <div className='navbar-1-divs'>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}>{checkIsAuth ? "" : <BsFillPencilFill />}<Link to="/register">{checkIsAuth ? "" : "Register"}</Link></div>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}>{checkIsAuth ? <BsFillPersonFill /> : <AiFillUnlock />} <Link to="/login">{checkIsAuth ? "MYOOX" : "LOGIN"}</Link></div>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}> <RiAdminFill /><Link to="/admin">ADMIN</Link></div>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}> <RiAdminFill /><Link to="/adminRegister">ADMIN</Link></div>
                 </div>
             </div>
             <div className='nav-line'></div>

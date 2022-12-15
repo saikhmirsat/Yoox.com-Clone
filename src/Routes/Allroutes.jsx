@@ -9,8 +9,10 @@ import Wishlist from '../Pages/Wishlist'
 import Women from '../Pages/Women/Women'
 import Login from '../Pages/Login'
 //import Admin from '../Pages/Admin'
-import Admin from "../admin/index"
+import AdminRegister from "../admin/AdminRegister"
 import Search from '../Pages/Search'
+import AdminLogin from '../admin/AdminLogin'
+import AdminIndex from '../admin/AdminIndex'
 
 export default function Allroutes() {
     return (
@@ -24,7 +26,9 @@ export default function Allroutes() {
             <Route path='/cart' element={<Cart />}></Route>
             <Route path='/register' element={<Register />}></Route>
             <Route path='/login' element={<Login />}></Route>
-            <Route path='/admin' element={<Admin />}></Route>
+            <Route path='/adminRegister' element={<AdminRegister />}></Route>
+            <Route path='/adminLogin' element={<AdminLogin />}></Route>
+            <Route path='/adminIndex' element={<AdminIndex />}></Route>
         </Routes>
     )
 }
