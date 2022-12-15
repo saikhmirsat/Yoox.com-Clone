@@ -11,6 +11,8 @@ import Login from '../Pages/Login'
 //import Admin from '../Pages/Admin'
 import Admin from "../admin/index"
 import Search from '../Pages/Search'
+import ProductDetails from '../admin/product_form'
+import Dashboard from '../admin/dashboard'
 
 export default function Allroutes() {
     return (
@@ -25,6 +27,8 @@ export default function Allroutes() {
             <Route path='/register' element={<Register />}></Route>
             <Route path='/login' element={<Login />}></Route>
             <Route path='/admin' element={<Admin />}></Route>
+            <Route path="/add_products" element={ <ProductDetails />}/>
+            <Route path="/dashboard" element={ <Dashboard />}/>
         </Routes>
     )
 }
