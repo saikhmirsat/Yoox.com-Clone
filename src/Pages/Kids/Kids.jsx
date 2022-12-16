@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Kids.css"
+import {GirlsCarousel,BoysCarousel} from './Girls_Boy_Carousel'
+
+
 
 export default function Kids() {
     return (
@@ -34,14 +37,18 @@ export default function Kids() {
                     </div>
                 </div>
 
+<GirlsCarousel/>
+<BoysCarousel/>
 
 
                 {/* Sliding Girls*/}
 
+                    {/* <GirlsCarousel/> */}
 
                 {/* Sliding Boys*/}
 
-
+                    {/* <BoysCarousel/> */}
+              
 
                 {/* Designers */}
 
