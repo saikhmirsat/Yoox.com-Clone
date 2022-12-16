@@ -19,6 +19,12 @@
    padding: 8px;
    cursor: pointer;
 }
+.edit_btn>a>button{
+    width: 50%;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
 .all_products{
     display: grid;
     grid-template-columns: repeat(4,1fr);

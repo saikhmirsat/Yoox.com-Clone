@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import AdminIndex from "./AdminIndex";
 import axios from "axios";
 import "./dashboard.css";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
@@ -45,7 +46,7 @@ const Dashboard = () => {
             </div>
             <div className="edit_btn">
               <button onClick={()=>(handleDelete(ele.id))}>Delete</button>
-              <button>Edit</button>
+             <Link to={`/dashboard/${ele.id}`}><button>Edit</button></Link> 
             </div>
           </div>
         ))}
