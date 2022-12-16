@@ -116,7 +116,9 @@
         font-size: 8px;
         width: 210%;
         margin-left: 0px;
-        /* height: 10px; */
+
+        height: 30px;
+        font-size: 10px;
     }
 
     .navbar-2 {
@@ -131,5 +133,10 @@
     .logo-div {
         /* border: 1px solid green; */
         height: 16px;
+    }
+
+    .navbar-1-divs>p {
+        /* border: 1px solid red; */
+        font-size: 10px;
     }
 }

@@ -1,9 +1,9 @@
 import React from 'react'
+import '../Pages/Profile.css'
 import '../Pages/Login.css'
 import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
-import '../Pages/Profile.css'
 import { FaHeadset } from 'react-icons/fa';
 import { BiShoppingBag } from 'react-icons/bi';
 import { HiOutlineHeart } from 'react-icons/hi';
