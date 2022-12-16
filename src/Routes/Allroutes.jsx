@@ -15,6 +15,7 @@ import Dashboard from '../admin/dashboard'
 import AdminLogin from '../admin/AdminLogin'
 import AdminRegister from '../admin/AdminRegister'
 import AdminIndex from '../admin/AdminIndex'
+import AddToCart from '../Pages/Men/AddToCart'
 
 
 
@@ -36,6 +37,7 @@ export default function Allroutes() {
             <Route path='/adminLogin' element={<AdminLogin />}></Route>
             <Route path='/adminRegister' element={<AdminRegister />}></Route>
             <Route path='/adminIndex' element={<AdminIndex />}></Route>
+            <Route path='/addToCart' element={<AddToCart />}> </Route>
 
         </Routes>
     )

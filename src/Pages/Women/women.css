@@ -5,6 +5,28 @@
 
    
 }
+/* .first-container-image{
+    border: 1px red solid;
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.yoox.com/images/yoox80/banners/6895_1_Genz_WM_Main.png");
+
+} */
+/* @media screen and (max-width:480px){
+    .first-container{
+        cursor: pointer;
+        width: 100%;
+        height: 100vh;
+        
+       
+    }
+    
+    .first-container-image{
+        background-image: url("https://mobile.yoox.com/images/yoox80/banners/6895_1_GenZ_WM_MainMOB.jpg?634485886601286852");
+        block-size: fit-content;
+        height: 100vh;
+    }
+} */
 .here-comes-night{
     /* border: 1px red solid; */
     margin-right: 950px;
@@ -56,7 +78,7 @@
     /* border: 1px red solid; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     position: relative;
-    
+    text-align: center;
     bottom: 30px;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
@@ -164,6 +186,9 @@
 #brands-container-item img{
     width: 480px;
 }
+.last-div{
+    margin-top: 100px;
+}
 
 .last-div-item{
     position: relative;
@@ -175,6 +200,7 @@
     cursor: pointer;
     font-size: 13px;
     padding: 10px;
+    
 }
 /* .last-div{
     margin: 20px;

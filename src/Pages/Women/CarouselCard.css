@@ -1,5 +1,5 @@
 .carousel-card{
-    
+    /* margin-right: 20px; */
     height: 500px;
     /* border: 1px red solid; */
     text-align: center;
@@ -7,6 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     font-size: 12px;
+    background-color: white;
 }
 .carousel-card img{
     width: 293px;

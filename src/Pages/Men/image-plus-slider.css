@@ -62,7 +62,6 @@
 }
 .ImagePlusSlider-product-container{
     /* position: relative; */
-    background-color: white;
     display: flex;
     gap: 12px;
     margin: 20px;
@@ -73,9 +72,6 @@
     scroll-behavior: smooth;
     margin-right: 10px;
 }
-/* .ImagePlusSlider-product-container img{
-    width: 100%;
-} */
 .ImagePlusSlider-slider p{
     /* border: 1px red solid; */
 }

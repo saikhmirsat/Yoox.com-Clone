@@ -100,6 +100,7 @@ export default function Women() {
 
         <OneInAllCarousel />
 
+        <ImagePlusSlider  />
 
         <div className='last-div'>
             <img src="https://www.yoox.com/images/yoox80/banners/6824_1_XmasGift_WM_Bottom.jpg" width="1350px" alt="" />
@@ -115,7 +116,7 @@ export default function Women() {
                 </div>
         </div>
 
-        <ImagePlusSlider />
+        
       
         
       </div>
