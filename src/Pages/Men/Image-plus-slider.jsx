@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './image-plus-slider.css'
-import ImagePlusSliderCard from './imagePlusSliderCard'
+import ImagePlusSliderCard from '../Women/imagePlusSliderCard'
 import { HiArrowLeft, HiArrowRight } from 'react-icons/hi2'
 
 const ImagePlusSlider = () => {
@@ -23,75 +23,75 @@ const ImagePlusSlider = () => {
   const sliderOfImageContainerData = [
     {
       "id":1,
-      "img":"https://www.yoox.com/images/items/50/50287417AM_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/16/16144202BC_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Earrings",
-      "discount":"19",
-      "price":"29.00"
+      "category":"Suit jacket",
+      "discount":"32",
+      "price":"195.00"
     },
     {
       "id":2,
-      "img":"https://www.yoox.com/images/items/15/15245940KN_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/12/12917310CG_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Long dress",
+      "category":"Shirt",
       "discount":"",
-      "price":"170.00"
+      "price":"100.00"
     },
     {
       "id":3,
-      "img":"https://www.yoox.com/images/items/17/17365751RC_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/13/13832267PA_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Boots",
+      "category":"Casual pants",
       "discount":"30",
-      "price":"180.00"
+      "price":"130.00"
     },
     {
       "id":4,
-      "img":"https://www.yoox.com/images/items/12/12887851CO_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/14/14270866SJ_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Crop top",
-      "discount":"",
-      "price":"60.00"
+      "category":"Sweater",
+      "discount":"28",
+      "price":"79.00"
     },
     {
       "id":5,
-      "img":"https://www.yoox.com/images/items/50/50283273GQ_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/17/17375491HB_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Earrings",
+      "category":"Boots",
       "discount":"",
-      "price":"42.00"
+      "price":"290.00"
     },
     {
       "id":6,
-      "img":"https://www.yoox.com/images/items/15/15241348FV_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/12/12867604CJ_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Midi dress",
+      "category":"Shirt",
       "discount":"",
-      "price":"200.00"
+      "price":"100.00"
     },
     {
       "id":7,
-      "img":"https://www.yoox.com/images/items/46/46867026DP_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/13/13819644IN_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Socks & tights",
+      "category":"Pants",
       "discount":"",
-      "price":"30.00"
+      "price":"89.00"
     },
     {
       "id":8,
-      "img":"https://www.yoox.com/images/items/12/12941504EA_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/46/46871741XK_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Top",
-      "discount":"",
-      "price":"170.00"
+      "category":"Leather belt",
+      "discount":"26",
+      "price":"59.00"
     },
     {
       "id":9,
-      "img":"https://www.yoox.com/images/items/17/17435314GV_14_f.jpg?impolicy=crop&width=306&height=390",
+      "img":"https://www.yoox.com/images/items/49/49774549QF_14_f.jpg?impolicy=crop&width=306&height=390",
       "brand":"8 by YOOX",
-      "category":"Ankle boot",
-      "discount":"",
-      "price":"240.00"
+      "category":"Suit jacket",
+      "discount":"29",
+      "price":"179.00"
     },
   ]
   

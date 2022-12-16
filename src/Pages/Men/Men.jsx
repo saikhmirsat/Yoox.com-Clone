@@ -1,6 +1,8 @@
 import React from 'react'
 import WomenNavbar from './MenNavbar'
 import "../Women/women.css"
+import { MenCarousel, OneInAllCarousel } from './MenCarousel'
+import ImagePlusSlider from './Image-plus-slider'
 
 export default function Women() {
 
@@ -21,6 +23,8 @@ export default function Women() {
           <br />
         </div>
       </div>
+
+      
 
       <div className='designers-container' >
         <div className="designer-item">
@@ -67,51 +71,7 @@ export default function Women() {
         </div>
       </div>
 
-
-
-      {/* <div className="new-arrivals">
-        <h2>NEW ARRIVALS</h2>
-        <p >VIEW ALL</p>
-        <div className="new-arrival-container">
-          <div className="new-arrival-container-item">
-            
-            <h4></h4>
-            <p>Sweater</p>
-            <p>34% OFF</p>
-            <p>US$ 671.00</p>
-          </div>
-          <div className="new-arrival-container-item">
-            <img src="" alt="" />
-            <h4>  </h4>
-            <p></p>
-            <p></p>
-            
-          </div>
-          <div className="new-arrival-container-item">
-            <img src="https://www.yoox.com/images/items/13/13909917KN_14_f.jpg?impolicy=crop&width=306&height=390" alt="" />
-            <h4>MSGM</h4>
-            <p>Casual pants</p>
-            <p>27% OFF</p>
-            <p>US$ 282.00</p>
-          </div>
-        </div>
-      </div> */}
-
-      
-        {/* <div className="new-arrivals">
-            {
-              new_arrivals_data.map((item,i) => 
-              <div className="new-arrival-container">
-                <div className="new-arrival-container-item">
-                  <img src={item.img} alt="" />
-                  <h4> {item.brand} </h4>
-                  <p> {item.category} </p>
-                  <p> {item.discount} </p>
-                  <p> {item.price} </p>
-              </div>
-              </div> )
-            }
-        </div> */}
+      <MenCarousel />
 
         <div className="brands-container">
           <div className="brands-container-item">
@@ -131,6 +91,9 @@ export default function Women() {
           </div>
         </div>
 
+        <OneInAllCarousel />
+        <ImagePlusSlider/>
+
         <div className='last-div'>
             <img src="https://www.yoox.com/images/yoox80/banners/6824_1_XmasGift_WM_Bottom.jpg" alt="" />
             <div className='last-div-item' >
@@ -145,6 +108,7 @@ export default function Women() {
                 </div>
         </div>
         
+      
       
 
 
