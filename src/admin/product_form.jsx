@@ -76,7 +76,7 @@ const ProductDetails = () => {
     const res=await  axios.post(`http://localhost:5050/products`,request)
     setData([...data,res])
   }
-  console.log(data);
+  // console.log(data);
   return (
     <div >
       <div>
