@@ -1,5 +1,5 @@
 // https://mirsat-vercel-database.vercel.app/AdimnRegisterYoox
-
+import '../Pages/Register.css'
 import React from 'react'
 import { useState } from 'react'
 import "../Pages/Register.css"

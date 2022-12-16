@@ -11,6 +11,7 @@ p {
 
 .Profile-1st-con {
     /* border: 1px solid red; */
+    text-align: center;
     background-color: white;
     height: 150px;
     line-height: 0.5;
@@ -37,7 +38,7 @@ p {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
     display: flex;
-
+    text-align: center;
     background-color: white;
 }
 
@@ -67,6 +68,7 @@ p {
 .Profile-3rd-con>div {
     /* border: 1px solid red; */
     /* height: 200px; */
+    text-align: center;
     padding: 80px 0px 0px 0px;
     background-color: white;
 }
@@ -112,6 +114,7 @@ p {
 
 .Profile-4th-con {
     /* border: 1px solid red; */
+    text-align: center;
     /* height: 400px; */
     width: 80%;
     margin: auto;
@@ -140,6 +143,7 @@ p {
 
 @media screen and (max-width:820px) {
     .profile-main-con {
+        /* border: 1px solid red; */
         width: 142%;
     }
 }
