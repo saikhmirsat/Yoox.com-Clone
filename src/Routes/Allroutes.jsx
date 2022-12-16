@@ -15,6 +15,7 @@ import Dashboard from '../admin/dashboard'
 import AdminLogin from '../admin/AdminLogin'
 import AdminRegister from '../admin/AdminRegister'
 import AdminIndex from '../admin/AdminIndex'
+import EditProduct from '../admin/editProduct'
 
 
 
@@ -36,6 +37,7 @@ export default function Allroutes() {
             <Route path='/adminLogin' element={<AdminLogin />}></Route>
             <Route path='/adminRegister' element={<AdminRegister />}></Route>
             <Route path='/adminIndex' element={<AdminIndex />}></Route>
+            <Route path="/dashboard/:product_id" element={<EditProduct />}></Route>
 
         </Routes>
     )
