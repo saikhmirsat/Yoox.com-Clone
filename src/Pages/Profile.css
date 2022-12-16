@@ -3,6 +3,12 @@ p {
     line-height: 1.5;
 }
 
+.profile-main-con {
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
 .Profile-1st-con {
     /* border: 1px solid red; */
     background-color: white;
@@ -28,12 +34,15 @@ p {
     margin: auto;
     margin-top: 40px;
     padding: 40px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+
     background-color: white;
 }
 
 .Profile-2nd-con>div {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,4 +136,64 @@ p {
     /* border: 1px solid goldenrod; */
     width: 60%;
     margin: auto;
+}
+
+@media screen and (max-width:820px) {
+    .profile-main-con {
+        width: 142%;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+
+    .profile-main-con {
+        width: 212%;
+    }
+
+    .profile-main-con p {
+        font-size: 25px;
+    }
+
+    .Profile-1st-con h2 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .Profile-1st-con button {
+        width: 20%;
+        font-size: 20px;
+    }
+
+    .Profile-2nd-con {
+        /* border: 1px solid goldenrod; */
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .Profile-2nd-con>div:nth-child(1) {
+        border: none;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(190, 187, 187);
+    }
+
+    .Profile-3rd-con {
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Profile-4th-con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Profile-4th-con>div {
+        height: 600px;
+    }
+
+    .Profile-4th-con h3 {
+        font-size: 50px;
+    }
 }

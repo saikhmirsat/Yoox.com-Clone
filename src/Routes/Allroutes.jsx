@@ -2,22 +2,26 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Cart from '../Pages/Cart'
 // import DesignArt from '../Pages/DesignArt/DesignArt'
-import Kids from '../Pages/Kids'
+import Kids from '../Pages/Kids/Kids'
 import Men from '../Pages/Men/Men'
 import Register from '../Pages/Register'
 import Wishlist from '../Pages/Wishlist'
 import Women from '../Pages/Women/Women'
 import Login from '../Pages/Login'
-//import Admin from '../Pages/Admin'
-import Admin from "../admin/index"
 import Search from '../Pages/Search'
 import ProductDetails from '../admin/product_form'
 import Dashboard from '../admin/dashboard'
+// import AdminRegisterLogin from '../admin/AdminRegisterLogin'
+import AdminLogin from '../admin/AdminLogin'
+import AdminRegister from '../admin/AdminRegister'
+import AdminIndex from '../admin/AdminIndex'
+
+
 
 export default function Allroutes() {
     return (
         <Routes>
-            <Route path='/women' element={<Women />}></Route>
+            <Route path='/' element={<Women />}></Route>
             <Route path='/men' element={<Men />}></Route>
             <Route path='/kids' element={<Kids />}></Route>
             {/* <Route path='/design' element={<DesignArt />}></Route> */}
@@ -26,9 +30,13 @@ export default function Allroutes() {
             <Route path='/cart' element={<Cart />}></Route>
             <Route path='/register' element={<Register />}></Route>
             <Route path='/login' element={<Login />}></Route>
-            <Route path='/admin' element={<Admin />}></Route>
-            <Route path="/add_products" element={ <ProductDetails />}/>
-            <Route path="/dashboard" element={ <Dashboard />}/>
+            <Route path="/add_products" element={<ProductDetails />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            {/* <Route path='/adminRegisterLogin' element={<AdminRegisterLogin />}></Route> */}
+            <Route path='/adminLogin' element={<AdminLogin />}></Route>
+            <Route path='/adminRegister' element={<AdminRegister />}></Route>
+            <Route path='/adminIndex' element={<AdminIndex />}></Route>
+
         </Routes>
     )
 }
