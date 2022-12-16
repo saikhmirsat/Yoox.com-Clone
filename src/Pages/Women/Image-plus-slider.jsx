@@ -6,6 +6,18 @@ import { HiArrowLeft, HiArrowRight } from 'react-icons/hi2'
 
 const ImagePlusSlider = () => {
 
+  let box = document.querySelector(".ImagePlusSlider-slider");
+
+  const handlePrevBtn = () =>{
+    let width = box[0].clientWidth;
+    box[0].scrollLeft = box[0].scrollLeft - width
+  }
+
+  const handleNextBtn =() =>{
+    let width = box[0].clientWidth;
+    box[0].scrollLeft = box[0].scrollLeft + width
+  }
+
   const sliderOfImageContainerData = [
     {
       "id":1,
@@ -100,8 +112,8 @@ const ImagePlusSlider = () => {
       </div>
 
       <div className='ImagePlusSlider-slider' >
-        <button className="slider-prev-btn"> <p> <HiArrowLeft /> </p> </button>
-        <button className="slider-next-btn"> <p> <HiArrowRight /> </p> </button>
+        <button className="slider-prev-btn"> <p onClick={handlePrevBtn} > <HiArrowLeft /> </p> </button>
+        <button className="slider-next-btn"> <p onClick={handleNextBtn} > <HiArrowRight /> </p> </button>
         {
           sliderOfImageContainerData.map((item) => <ImagePlusSliderCard 
           key={item.id} brand={item.brand} price={item.price} category={item.category} img={item.img} />)

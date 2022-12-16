@@ -51,9 +51,12 @@
     position: relative;
     width: 260px;
     background-color: white;
+    border: 1px red solid;
 
 }
-
+.ImagePlusSlider-slider p{
+    border: 1px red solid;
+}
 .slider-next-btn,.slider-prev-btn{
     position: absolute;
     top:450px;
