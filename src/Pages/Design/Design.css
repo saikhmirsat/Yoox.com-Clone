@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.designArtPage {
+    background-color: white;
+    /* margin-top: 130px; */
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+p{
+    color: grey;
+}
+
+/* designArtPage navbar css start */
+.top_navbar {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(47, 46, 46);
+    /* position: fixed; */
+     /*top: 95px; */
+    
+}
+.designArtPage_navbar{
+   
+    width: 30%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.designArtPage_navbar > a {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(237, 233, 233);
+    text-decoration: none;
+}
+.designArtPage_navbar > a:hover{
+    color: gray;
+}
+.designArtPage_navbar_col{
+    background-color: #CA336E;
+    line-height: 25px;
+    padding: 5px 5px 5px 25px;
+}
+/* designArtPage navbar css end */
+
+
+/*  Design & art page posters css start */
+.designArtPage__poster {
+    
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* margin-bottom: 50px; */
+}
+.poster__left {
+    width: 65%;
+    height: auto;
+}
+.poster__left > img {
+    width: 100%;
+    height: auto;
+}
+.poster_left_Heading{
+    margin-right: 190px;
+    margin-left: 10px;
+    background-color: white;
+    position: relative;
+    top:-140px;
+    cursor: pointer;
+    text-align: left;
+    padding: 10px 20px ;
+}
+
+.poster__right {
+    width: 30%;
+    height: auto;
+}
+.poster__right > img {
+    width: 100%;
+    height: auto;
+}
+.poster__right > h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.poster__right > p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+/*  Design & art page posters css end */
+
+
+
+/* designArtPage_heading css start */
+/* .designArtPage_heading {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.designArtPage_heading > h1 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+} */
+/* designArtPage_heading css end */
+
+
+
+
+/* designArtPage__crazyMood css start */
+.designArtPage__crazyMood {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.designArtPage__crazyMood > img {
+    width: 100%;
+    height: auto;
+}
+.designArtPage__crazyMood > h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.designArtPage__crazyMood > p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+/* designArtPage__crazyMood css end */
+
+
+/* designArtPage__threeImageDiv css start */
+.designArtPage__threeImageDiv {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.twoImage_div {
+    width: 40%;
+    height: auto;
+}
+.firstSecondImage {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.firstSecondImage > img {
+    width: 100%;
+    height: auto;
+}
+.firstSecondImage > h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.firstSecondImage > p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.singleImageDiv {
+    width: 50%;
+    height: auto;
+}
+.singleImageDiv > img {
+    width: 100%;
+    height: auto;
+}
+.singleImageDiv > h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.singleImageDiv > p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+/* designArtPage__threeImageDiv css end */
+
+
+
+/* designArtPage__topPicks css start */
+.designArtPage__topPicks {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topPicks__item {
+    width: 15%;
+    height: auto;
+}
+.topPicks__item > img {
+    width: 100%;
+    height: auto;
+}
+.topPicks__item > h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+.topPicks__item > p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.topPicks__item > h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* designArtPage__topPicks css end */
+
+
+
+/* designArtPage__bottom css start */
+.designArtPage__bottom {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.designArtPage__bottom > img {
+    width: 100%;
+    height: auto;
+}
+.designArtPage__bottom_Heading{
+    position: relative;
+    top:-200px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.designArtPage__bottom_Heading > p{
+    color: #fff;
+}
+.designArtPage__bottom_Heading > a{
+    color: #fff;
+    font-weight: bold;
+}
+.designArtPage__bottom_Heading > a:hover{
+    color: red;
+}
+/* designArtPage__bottom css end */
+
+
+
+.toppicks__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}

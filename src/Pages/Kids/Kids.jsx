@@ -37,17 +37,15 @@ export default function Kids() {
                     </div>
                 </div>
 
-<GirlsCarousel/>
-<BoysCarousel/>
 
 
                 {/* Sliding Girls*/}
 
-                    {/* <GirlsCarousel/> */}
+                    <GirlsCarousel/>
 
                 {/* Sliding Boys*/}
 
-                    {/* <BoysCarousel/> */}
+                    <BoysCarousel/>
               
 
                 {/* Designers */}
