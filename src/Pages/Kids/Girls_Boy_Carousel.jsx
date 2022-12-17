@@ -115,7 +115,7 @@ const GirlsCarousel = () => {
   return (
         <div>
           <p className='new-arrival-heading' > NEW ARRIVALS GIRLS</p>
-          <p className='view-all-heading' > VIEW ALL</p>
+          <a href="#" id='ujju' className='view-all-heading' > VIEW ALL</a>
           <div className='product-container' >
 
               <button className="prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
@@ -232,7 +232,7 @@ return (
   
       <div>
       <p className='new-arrival-heading' > NEW ARRIVALS BOYS</p>
-      <p className='view-all-heading' > VIEW ALL</p>
+      <a href="#" id='ujju' className='view-all-heading' > VIEW ALL</a>
       <div className='product-container' >
 
           <button className="prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
