@@ -114,7 +114,7 @@ const GirlsCarousel = () => {
       }
   return (
         <div>
-          <p className='new-arrival-heading' > NEW ARRIVALS BOYS</p>
+          <p className='new-arrival-heading' > NEW ARRIVALS GIRLS</p>
           <p className='view-all-heading' > VIEW ALL</p>
           <div className='product-container' >
 
@@ -231,7 +231,7 @@ const BoysCarousel = () =>{
 return (
   
       <div>
-      <p className='new-arrival-heading' > NEW ARRIVALS GIRLS</p>
+      <p className='new-arrival-heading' > NEW ARRIVALS BOYS</p>
       <p className='view-all-heading' > VIEW ALL</p>
       <div className='product-container' >
 

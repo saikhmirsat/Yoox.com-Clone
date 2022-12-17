@@ -1,0 +1,13 @@
+.carousel-card{
+    
+    height: 500px;
+    /* border: 1px red solid; */
+    text-align: center;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 12px;
+}
+.carousel-card img{
+    width: 293px;
+}

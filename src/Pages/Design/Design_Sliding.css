@@ -1,0 +1,148 @@
+.product-container{
+    width: 60%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      /* overflow: hidden; */
+      
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+      width: 70%;
+      /* height: 500px; */
+      margin: auto;
+  
+  }
+  .one-product-container{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      /* overflow: hidden; */
+      
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+      width: 70%;
+      /* height: 500px; */
+      margin: auto;
+  
+  }
+  
+  .product-slider{
+      display: flex;
+      gap: 12px;
+      margin: 20px;
+      /* border: 1px red solid; */
+      /* white-space: nowrap; */
+      overflow:hidden;
+      scroll-behavior: smooth;
+      margin-right: 10px;
+  
+  }
+  .one-product-slider{
+      display: flex;
+      gap: 12px;
+      margin: 20px;
+      /* border: 1px red solid; */
+      /* white-space: nowrap; */
+      overflow:hidden;
+      scroll-behavior: smooth;
+      margin-right: 10px;
+  
+  }
+  
+  .prev-btn, .next-btn{
+      position: absolute;
+      width: 20px;
+      height: 100%;
+      /* top:30px; */
+      border: none;
+  
+      
+  }
+  .one-prev-btn, .one-next-btn{
+      position: absolute;
+      width: 20px;
+      height: 100%;
+      /* top:30px; */
+      border: none;
+  
+      
+  }
+  
+  .next-btn{
+      right: 0;
+  }
+  .one-next-btn{
+      right: 0;
+  }
+  
+  .prev-btn p, .next-btn p{
+      width: 50px;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.836);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      bottom: 50px;
+      
+  }
+  .one-prev-btn p, .one-next-btn p{
+      width: 50px;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.836);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      bottom: 50px;
+      
+  }
+  
+  .next-btn p{
+      right: 40px;
+      color: white;
+      font-size: 25px;
+  }
+  .one-next-btn p{
+      right: 40px;
+      color: white;
+      font-size: 25px;
+  }
+  .prev-btn p{
+      right: 5px;
+      color: white;
+      font-size: 25px;
+  }
+  .one-prev-btn p{
+      right: 5px;
+      color: white;
+      font-size: 25px;
+  }
+  
+  .new-arrival-heading{
+      margin-left: 600px;
+      font-size: 24px;
+      letter-spacing:2px;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+  }
+  .view-all-heading{
+      margin-left: 655px;
+      text-decoration: underline;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+  }
+  .view-all-heading:hover{
+      color: gray;
+  }
+  
+  .ONE-OF-A-KIND{
+      margin-left: 600px;
+      font-size: 24px;
+      letter-spacing:2px;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+  
+  }

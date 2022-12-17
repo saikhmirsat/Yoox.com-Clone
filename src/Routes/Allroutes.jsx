@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Cart from '../Pages/Cart'
-// import DesignArt from '../Pages/DesignArt/DesignArt'
+import Design from '../Pages/Design/Design'
 import Kids from '../Pages/Kids/Kids'
 import Men from '../Pages/Men/Men'
 import Register from '../Pages/Register'
@@ -29,7 +29,7 @@ export default function Allroutes() {
             <Route path='/' element={<Women />}></Route>
             <Route path='/men' element={<Men />}></Route>
             <Route path='/kids' element={<Kids />}></Route>
-            {/* <Route path='/design' element={<DesignArt />}></Route> */}
+            <Route path='/design' element={<Design />}></Route>
             <Route path='/wishlist' element={<Wishlist />}></Route>
             <Route path='/search' element={<Search />}></Route>
             <Route path='/cart' element={<Cart />}></Route>
