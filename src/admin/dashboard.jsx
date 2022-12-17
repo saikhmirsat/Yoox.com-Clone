@@ -27,9 +27,10 @@ const Dashboard = () => {
  
   return (
     <div>
-      <div>
+      {/* <div>
         <AdminIndex />
-      </div>
+      </div> */}
+      <h1>Dashboard</h1>
       <hr />
 
       <div className="all_products">

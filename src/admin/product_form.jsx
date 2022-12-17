@@ -79,9 +79,10 @@ const ProductDetails = () => {
   // console.log(data);
   return (
     <div >
-      <div>
+      {/* <div>
         <AdminIndex />
-      </div>
+      </div> */}
+      <h2>Add products</h2>
       <hr />
       <div className='product_details'>
         <form onSubmit={handleSubmit}>

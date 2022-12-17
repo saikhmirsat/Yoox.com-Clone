@@ -69,7 +69,7 @@ const EditProduct = () => {
                <input type="submit" />
         </form>
         </div>
-        <Link to="/dashboard">Go Back</Link>
+        <Link to="/adminIndex">Go Back</Link>
     </div>
   )
 }
