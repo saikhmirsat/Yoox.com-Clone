@@ -15,3 +15,18 @@
     color: red;
     cursor: pointer;
 }
+.admin_panel{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.form{
+    border: 1px solid black;
+    padding: 10px;
+    height: fit-content;
+}
+.dash{
+    border: 1px solid black;
+    width: 70%;
+    padding: 10px;
+}
