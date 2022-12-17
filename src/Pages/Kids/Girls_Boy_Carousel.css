@@ -75,13 +75,22 @@
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
-.view-all-heading{
+.view-all-heading > a{
+    color: black;
     margin-left: 655px;
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+    
 }
 .view-all-heading:hover{
     color: gray;
 }
+#ujju{
+    color: black;
+}
+#ujju:hover{
+    color: gray;
+}
+
 
