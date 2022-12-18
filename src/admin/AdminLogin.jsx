@@ -11,6 +11,7 @@ import { BsPerson } from 'react-icons/bs';
 import { RiBookmark3Line } from 'react-icons/ri';
 import { GiThermometerScale } from 'react-icons/gi';
 import { useNavigate } from 'react-router-dom'
+import Footer from '../Components/Footer/Footer'
 
 
 
@@ -145,6 +146,7 @@ export default function AdminLogin() {
                         <img src="https://www.yoox.com/images/yoox80/banners/6736_2_HOME_2_M.jpg?634485886601286852" alt="" />
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     } else {

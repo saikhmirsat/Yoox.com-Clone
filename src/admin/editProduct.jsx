@@ -45,8 +45,8 @@ const EditProduct = () => {
     return (
         <div>
             <hr />
-            <div>
-                <h1>Edit Product Informations</h1>
+            <div className='edit-prod-cpntainer'>
+                <h1>Edit Product</h1>
                 <form onSubmit={handleSubmit} className="ediitngForm">
                     <label htmlFor="">
                         Title : <input type="text" placeholder='Enter new title' name='title' value={title} onChange={handleChange} />
@@ -69,10 +69,10 @@ const EditProduct = () => {
                     <label htmlFor="">
                         Image-4 : <input type="url" placeholder='Enter new image link' name="image_4" value={image_4} onChange={handleChange} />
                     </label>
-                    <input type="submit" />
+                    <input type="submit" style={{ width: '50%', margin: 'auto', backgroundColor: '#333333', color: 'white', textAlign: 'center', border: 'none' }} />
                 </form>
             </div>
-            <Link to="/adminIndex">Go Back</Link>
+            <Link to="/adminIndex" className='edit-form-go-back'>Go Back</Link>
         </div>
     )
 }

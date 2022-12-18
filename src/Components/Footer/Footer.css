@@ -1,0 +1,78 @@
+.footer-container {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.footer-1st-con {
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: 19% 19% 30% 15% 20%;
+    width: 70%;
+    margin: auto;
+}
+
+.footer-1st-con>div {
+    padding: 30px;
+}
+
+.footer-1st-con>div>hr {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.footer-1st-con-mid-con {
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-top: 40px;
+}
+
+.footer-1st-con-mid-con>input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: rgb(237, 235, 235);
+    font-weight: bolder;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.footer-signup {
+    width: 100%;
+    border: 0px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+.footer-2nd-con {
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-2nd-con>div {
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.footer-2nd-con>div>p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer-last-container {
+    background-color: #333333;
+    padding: 40px 0px;
+    color: white;
+    font-size: 12px;
+}

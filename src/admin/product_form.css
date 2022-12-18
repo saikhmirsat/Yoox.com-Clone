@@ -1,19 +1,29 @@
-.product_details{
-
-margin: auto;
-width: fit-content;
+.product_details {
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    margin: auto;
+    width: fit-content;
 }
-.product_details>form>label{
+
+.prod-form-header {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+}
+
+.product_details>form>label {
     display: block;
     text-align: left;
     padding-bottom: 10px;
 }
-.product_details>form>input[type="submit"]{
+
+.product_details>form>input[type="submit"] {
+    width: 100%;
     padding: 8px;
     font-size: 20px;
     border: none;
-    background-color: teal;
+    background-color: #333333;
     color: white;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     cursor: pointer;
 }
