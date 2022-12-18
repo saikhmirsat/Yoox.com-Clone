@@ -1,8 +1,7 @@
-
 import React, { useState } from "react";
 import "./product_form.css";
 import axios from "axios"
-import AdminIndex from "./AdminIndex"
+//import AdminIndex from "./AdminIndex"
 
 const initialData = {
   for_whom: "",
@@ -73,12 +72,10 @@ const ProductDetails = () => {
       materials,
       print,
     };
-    const res=await  axios.post(`http://localhost:5050/products`,request)
+    const res=await  axios.post(`https://product-list-api.onrender.com/products`,request)
     setData([...data,res])
-
     alert("Product Added Succesfully")
     window.location.reload()
-
   }
   // console.log(data);
   return (
