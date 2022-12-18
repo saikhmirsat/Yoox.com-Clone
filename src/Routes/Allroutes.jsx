@@ -21,9 +21,7 @@ import AddToCart from '../Pages/Men/AddToCart'
 import EditProduct from '../admin/editProduct'
 import WomenItems from '../Pages/Women/WomenItems'
 import WomenDetail from '../Pages/Women/WomenDetail'
-
-
-
+import Address from '../Pages/Address'
 
 export default function Allroutes() {
     return (
@@ -49,7 +47,7 @@ export default function Allroutes() {
             <Route path='/addToCart' element={<AddToCart />}> </Route>
 
             <Route path="/dashboard/:product_id" element={<EditProduct />}></Route>
-
+            <Route path='/address' element={<Address />}></Route>
 
         </Routes>
     )
