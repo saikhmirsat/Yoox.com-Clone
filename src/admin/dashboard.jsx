@@ -10,7 +10,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5050/products`)
+      .get(`https://product-list-api.onrender.com/products`)
       .then((res) => setData(res.data))
       .catch((err) => {
         console.log(err);
@@ -18,7 +18,7 @@ const Dashboard = () => {
   }, []);
 
   const handleDelete=(id)=>{
-   axios.delete(`http://localhost:5050/products/${id}`)
+   axios.delete(`https://product-list-api.onrender.com/products/${id}`)
    .then(()=>{
     alert("Product deleted")
     window.location.reload()
