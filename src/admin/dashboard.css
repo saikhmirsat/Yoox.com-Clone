@@ -21,6 +21,13 @@
     background-color: #333333;
     color: white;
     border: none;
+}
+.edit_btn>button{
+   width: 50%;
+   font-size: 20px;
+   padding: 9px;
+   cursor: pointer;
+
 
 }
 

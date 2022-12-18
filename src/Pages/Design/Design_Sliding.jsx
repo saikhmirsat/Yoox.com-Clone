@@ -1,6 +1,5 @@
 import React,{useEffect, useRef, useState} from 'react'
 import {CarouselCard} from './CarouselCard'
-import "./Design_Sliding.css";
 import { HiArrowLeft,HiArrowRight } from "react-icons/hi2";
 
 
@@ -110,52 +109,55 @@ const Design_Sliding = () => {
       ]
 
       
-      const ref = useRef(null); //ref to parent div
-      const box = document.getElementsByClassName("product-slider")
-      console.log("box",box)
-      // console.log("box",box[0].clientWidth)
-      useEffect(() =>{
-        
-        let width = box.clientWidth;
-        // console.log('width',width)
-        setClientWidth(width)
+  
+  const ref = useRef(null); //ref to parent div
+  const box = document.getElementsByClassName("gb-product-slider")
+  console.log("box",box)
+  // console.log("box",box[0].clientWidth)
+  useEffect(() =>{
+    
+    let width = box.clientWidth;
+    // console.log('width',width)
+    setClientWidth(width)
 
-      },[])
-
-       
-      const handlePrevbtn = () =>{
-        const width = box[0].clientWidth;
-        // console.log(width)
-        box[0].scrollLeft = box[0].scrollLeft-width;
+  },[])
 
 
-      }
+  const handlePrevbtn = () =>{
+    const width = box[0].clientWidth;
+    // console.log(width)
+    box[0].scrollLeft = box[0].scrollLeft-width;
 
-      const handleNextbtn = () =>{
-        const width = box[0].clientWidth;
-        // console.log(width)
-        box[0].scrollLeft = box[0].scrollLeft+width;
 
-      }
-  return (
-        <div>
-          <h2 className='new-arrival-heading' > TOP PICKS </h2>
-         
-          <div className='product-container' >
+  }
 
-              <button className="prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
-              <button className="next-btn" onClick={handleNextbtn} > <p  ><HiArrowRight/></p> </button>
+  const handleNextbtn = () =>{
+    const width = box[0].clientWidth;
+    // console.log(width)
+    box[0].scrollLeft = box[0].scrollLeft+width;
 
-              <div className="product-slider">
-                {
-                  new_arrivals_data.map((item) => <CarouselCard key={item.id} img={item.img}
-                  brand={item.brand} category={item.category} price={item.price} />)
-                }
-              </div>
+  }
+return (
+    <div>
+      <p className='gb-new-arrival-heading' >  TOP PICKS </p>
+      <div className='gb-product-container' >
 
-              </div>
-        </div>
-  )
+          <button className="gb-prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
+          <button className="gb-next-btn" onClick={handleNextbtn} > <p  ><HiArrowRight/></p> </button>
+
+          <div className="gb-product-slider">
+            {
+              new_arrivals_data.map((item) => <CarouselCard key={item.id} img={item.img}
+              brand={item.brand} category={item.category} price={item.price} />)
+            }
+          </div>
+
+          </div>
+    </div>
+)
+
+
+
 }
 
 

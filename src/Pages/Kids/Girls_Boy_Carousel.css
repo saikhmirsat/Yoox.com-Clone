@@ -154,3 +154,10 @@
     cursor: pointer;
 
 }
+
+#ujju{
+    color: black;
+}
+#ujju:hover{
+    color: grey;
+}

@@ -72,10 +72,10 @@ const ProductDetails = () => {
       materials,
       print,
     };
-    const res=await  axios.post(`https://product-list-api.onrender.com/products`,request)
+    const res=await  axios.post(`https://mirsat-vercel-database.vercel.app/yooxData`,request)
     setData([...data,res])
     alert("Product Added Succesfully")
-    window.location.reload()
+   // window.location.reload()
   }
   // console.log(data);
   return (
