@@ -1,19 +1,18 @@
 import axios from "axios";
 import React from "react";
 import "./Address.css";
+import { useNavigate } from "react-router-dom";
 
-export let emptyCart =(id)=>{
- axios.delete(`https://product-list-api.onrender.com/cart/${id}`)
-}
-const handleSubmit=(e)=>{
-e.preventDefault()
-emptyCart()
-}
 const Address = () => {
-    
+  let Navigate = useNavigate();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Congratulations!! Order successfull !");
+    Navigate("/womenItem");
+  };
   return (
     <div style={{ alignItems: "center", margin: "auto" }}>
-      <div style={{ fontSize: "25px", marginTop:"40px"}}>Address</div>
+      <div style={{ fontSize: "25px", marginTop: "40px" }}>Address</div>
       <div className="address">
         <form onSubmit={handleSubmit}>
           <label htmlFor="">
@@ -38,11 +37,7 @@ const Address = () => {
             <input type="checkbox" required />
           </label>
 
-          <input
-            type="submit"
-            value="Place Order"
-            
-          />
+          <input type="submit" value="Place Order" />
         </form>
       </div>
     </div>
