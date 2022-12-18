@@ -28,7 +28,7 @@ const EditProduct = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        axios.patch(`https://product-list-api.onrender.com/products/${params.product_id}`, {
+        axios.patch(`https://mirsat-vercel-database.vercel.app/yooxData/${params.product_id}`, {
             title,
             price,
             type,

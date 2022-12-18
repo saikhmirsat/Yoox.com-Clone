@@ -11,7 +11,7 @@ export default function WomenItems() {
     const navigate = useNavigate()
     console.log(data)
     const GetData = () => {
-        axios.get(`https://mirsat-vercel-database.vercel.app/yooxData`)
+        axios.get(`https://product-list-api.onrender.com/products`)
             .then((res) => setData(res.data))
     }
     useEffect(() => {
