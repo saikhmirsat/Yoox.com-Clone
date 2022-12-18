@@ -27,9 +27,9 @@ export default function WomenItems() {
         GetData()
     }, [])
 
-    const resultArr = data.filter((ele) => {
-        return ele.for_whom == 'women'
-    })
+    // const resultArr = data.filter((ele) => {
+    //     return ele.for_whom == 'women'
+    // })
 
     console.log(resultArr)
 
