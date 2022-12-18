@@ -19,15 +19,17 @@ import AdminIndex from '../admin/AdminIndex'
 import AddToCart from '../Pages/Men/AddToCart'
 
 import EditProduct from '../admin/editProduct'
-
-
-
+import WomenItems from '../Pages/Women/WomenItems'
+import WomenDetail from '../Pages/Women/WomenDetail'
+import Address from '../Pages/Address'
 
 export default function Allroutes() {
     return (
         <Routes>
             <Route path='/' element={<Women />}></Route>
             <Route path='/men' element={<Men />}></Route>
+            <Route path='/womenItem' element={<WomenItems />}></Route>
+            <Route path='/womenItem/:id' element={<WomenDetail />}></Route>
             <Route path='/kids' element={<Kids />}></Route>
             <Route path='/design' element={<Design />}></Route>
             <Route path='/wishlist' element={<Wishlist />}></Route>
@@ -45,7 +47,7 @@ export default function Allroutes() {
             <Route path='/addToCart' element={<AddToCart />}> </Route>
 
             <Route path="/dashboard/:product_id" element={<EditProduct />}></Route>
-
+            <Route path='/address' element={<Address />}></Route>
 
         </Routes>
     )

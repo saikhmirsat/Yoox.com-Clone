@@ -10,15 +10,15 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get(`https://product-list-api.onrender.com/products`)
+      .get(`https://mirsat-vercel-database.vercel.app/yooxData`)
       .then((res) => setData(res.data))
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [data]);
 
   const handleDelete = (id) => {
-    axios.delete(`https://product-list-api.onrender.com/products/${id}`)
+    axios.delete(`https://mirsat-vercel-database.vercel.app/yooxData/${id}`)
       .then(() => {
         alert("Product deleted")
         window.location.reload()

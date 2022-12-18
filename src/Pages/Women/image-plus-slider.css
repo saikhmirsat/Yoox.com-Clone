@@ -1,23 +1,27 @@
-.ImagePlusSlider-container{
+.women-ImagePlusSlider-container{
     /* border: 1px red solid; */
     height: 600px;
     margin-top: 50px;
     margin-left: 50px;
 }
 
-.image-plus-slider-container{
+.women-image-plus-slider-container{
     /* border: 1px red solid; */
     height: 600px;
     
+    
 }
-.image-container{
+.women-image-container{
     margin-left: 150px;
     position: relative;
+    text-align: start;
+    
 }
-.image-container img{
+.women-image-container img{
     width: 800px;
+    
 }
-.its-party-time{
+.women-its-party-time{
     margin-right: 950px;
     margin-left: 10px;
     width: 350px;
@@ -32,21 +36,21 @@
 }
 
 
-.its-party-time p{
+.women-its-party-time p{
     color: gray;
     font-size: 14px;
 }
-.its-party-time div{
+.women-its-party-time div{
     /* margin-bottom: 10px; */
     text-decoration: underline
 }
 
-.its-party-time span:hover{
+.women-its-party-time span:hover{
     color: grey;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.ImagePlusSlider-slider{
+.women-ImagePlusSlider-slider{
     margin-left: 30px;
     left: 800px;
     bottom: 700px;
@@ -60,7 +64,7 @@
     /* margin: auto; */
 
 }
-.ImagePlusSlider-product-container{
+.women-ImagePlusSlider-product-container{
     /* position: relative; */
     background-color: white;
     display: flex;
@@ -79,7 +83,7 @@
 .ImagePlusSlider-slider p{
     /* border: 1px red solid; */
 }
-.slider-next-btn,.slider-prev-btn{
+.women-slider-next-btn,.women-slider-prev-btn{
     position: absolute;
     width: 20px;
     height: 100%;
@@ -89,14 +93,15 @@
 
 }
 
-.slider-prev-btn{
+.women-slider-prev-btn{
     background-color: white;
+    left: 0;
 }
-.slider-next-btn{
+.women-slider-next-btn{
     right: 0;
 }
 
-.slider-next-btn p,.slider-prev-btn p{
+.women-slider-next-btn p,.women-slider-prev-btn p{
     width: 50px;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.836);
@@ -109,15 +114,18 @@
     margin-top: 130px;
 }
 
-.slider-prev-btn p{
+.women-slider-prev-btn p{
     right: 40px;
     color: white;
     font-size: 25px;
     margin-left: 24px;
     
 }
-.slider-next-btn p{
+.women-slider-next-btn p{
     right: 40px;
     color: white;
     font-size: 25px;
+}
+.women-discover-more{
+    margin-left: 50px;
 }

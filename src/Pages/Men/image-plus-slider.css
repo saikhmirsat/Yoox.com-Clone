@@ -1,23 +1,27 @@
-.ImagePlusSlider-container{
+.men-ImagePlusSlider-container{
     /* border: 1px red solid; */
     height: 600px;
     margin-top: 50px;
     margin-left: 50px;
 }
 
-.image-plus-slider-container{
+.men-image-plus-slider-container{
     /* border: 1px red solid; */
     height: 600px;
     
+    
 }
-.image-container{
+.men-image-container{
     margin-left: 150px;
     position: relative;
+    text-align: start;
+    
 }
-.image-container img{
+.men-image-container img{
     width: 800px;
+    
 }
-.its-party-time{
+.men-its-party-time{
     margin-right: 950px;
     margin-left: 10px;
     width: 350px;
@@ -32,21 +36,21 @@
 }
 
 
-.its-party-time p{
+.men-its-party-time p{
     color: gray;
     font-size: 14px;
 }
-.its-party-time div{
+.men-its-party-time div{
     /* margin-bottom: 10px; */
     text-decoration: underline
 }
 
-.its-party-time span:hover{
+.men-its-party-time span:hover{
     color: grey;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.ImagePlusSlider-slider{
+.men-ImagePlusSlider-slider{
     margin-left: 30px;
     left: 800px;
     bottom: 700px;
@@ -60,8 +64,9 @@
     /* margin: auto; */
 
 }
-.ImagePlusSlider-product-container{
+.men-ImagePlusSlider-product-container{
     /* position: relative; */
+    background-color: white;
     display: flex;
     gap: 12px;
     margin: 20px;
@@ -72,10 +77,13 @@
     scroll-behavior: smooth;
     margin-right: 10px;
 }
+/* .ImagePlusSlider-product-container img{
+    width: 100%;
+} */
 .ImagePlusSlider-slider p{
     /* border: 1px red solid; */
 }
-.slider-next-btn,.slider-prev-btn{
+.men-slider-next-btn,.men-slider-prev-btn{
     position: absolute;
     width: 20px;
     height: 100%;
@@ -85,14 +93,15 @@
 
 }
 
-.slider-prev-btn{
+.men-slider-prev-btn{
     background-color: white;
+    left: 0;
 }
-.slider-next-btn{
+.men-slider-next-btn{
     right: 0;
 }
 
-.slider-next-btn p,.slider-prev-btn p{
+.men-slider-next-btn p,.men-slider-prev-btn p{
     width: 50px;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.836);
@@ -105,15 +114,18 @@
     margin-top: 130px;
 }
 
-.slider-prev-btn p{
+.men-slider-prev-btn p{
     right: 40px;
     color: white;
     font-size: 25px;
     margin-left: 24px;
     
 }
-.slider-next-btn p{
+.men-slider-next-btn p{
     right: 40px;
     color: white;
     font-size: 25px;
+}
+.men-discover-more{
+    margin-left: 50px;
 }

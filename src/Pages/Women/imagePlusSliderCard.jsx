@@ -3,7 +3,7 @@ import './imagePlusSliderCard.css'
 
 const ImagePlusSliderCard = ({img,brand,category,price}) => {
   return (
-    <div className='imagePlusSliderCard' >
+    <div className='women-imagePlusSliderCard' >
         <img src={img} />
         <h4>{brand}</h4>
         <p>{category}</p>
