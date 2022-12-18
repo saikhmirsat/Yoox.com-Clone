@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 import { Link } from 'react-router-dom'
 import { TiHeartOutline } from 'react-icons/ti';
@@ -7,6 +9,21 @@ import { FaSearch } from 'react-icons/fa';
 import { BsFillHandbagFill } from 'react-icons/bs';
 
 export default function Navbar2() {
+    const [cart, setCart] = useState([]);
+    console.log(cart.length)
+
+    const getData = () => {
+        axios
+            .get(`https://product-list-api.onrender.com/cart`)
+            .then((res) => setCart(res.data));
+
+    }
+
+    useEffect(() => {
+        getData()
+    }, []);
+
+
     return (
         // 
         <div>
@@ -25,6 +42,7 @@ export default function Navbar2() {
                     <Link to="search"><FaSearch size="20px" color='black' /></Link>
                     <Link to="/wishlist"><TiHeartOutline color='black' size="25px" /></Link>
                     <Link to="/cart"><BsFillHandbagFill color='black' size="20px" /></Link>
+                    <div className='cart-value'>{cart.length}</div>
                 </div>
             </div>
         </div>

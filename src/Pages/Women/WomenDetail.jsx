@@ -27,6 +27,7 @@ export default function WomenDetail() {
       .then((res) => {
         setCart([...cart, res.data])
         alert("Product added to the cart !");
+        window.location.reload()
       })
       .catch((err) => {
         console.log(err)

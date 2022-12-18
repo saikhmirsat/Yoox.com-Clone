@@ -80,6 +80,19 @@
     gap: 60px;
 }
 
+.cart-value {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    position: absolute;
+    right: 226px;
+    padding: 2px;
+}
+
 @media screen and (max-width:820px) {
     .navbar-1 {
         font-size: 8px;

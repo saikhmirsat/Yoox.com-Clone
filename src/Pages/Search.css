@@ -1,0 +1,17 @@
+.search-card-div {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search-card-main {
+    border: 1px solid grey;
+}
+
+.search-card-main>img {
+    width: 100%;
+}

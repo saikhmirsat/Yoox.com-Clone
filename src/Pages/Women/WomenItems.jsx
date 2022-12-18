@@ -27,9 +27,11 @@ export default function WomenItems() {
         GetData()
     }, [])
 
-    // const handleChange = () => {
-    //     navigate('/womenItem/:id')
-    // }
+    const resultArr = data.filter((ele) => {
+        return ele.for_whom == 'women'
+    })
+
+    console.log(resultArr)
 
     const handlePriceApply = () =>{
         let filterdData = data.filter(item => (item.price>=Number(fromPrice) && item.price <= Number(toPrice)) );
