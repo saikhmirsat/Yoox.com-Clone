@@ -1,6 +1,7 @@
 import React from "react";
 import Design_Sliding from "./Design_Sliding";
 import "./Design.css"
+import Footer from "../../Components/Footer/Footer";
 
 const Design = () => {
     return (
@@ -92,7 +93,8 @@ const Design = () => {
 
 
             </div>
-
+            <hr style={{ marginBottom:"60px"}} />
+            <Footer  /> 
         </>
     )
 }

@@ -1,19 +1,32 @@
 .card-main {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     line-height: 0;
+    
 }
 
 .womenItme-main-con {
+    margin-top: 40px;
     width: 90%;
     margin: auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    
     display: flex;
     gap: 10px;
+    /* position: relative; */
 }
 
 .womenItem-main-con-1st-div {
     width: 25%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 78vh;
+    background-color: rgba(245, 240, 240, 0.725)
+    /* position: fixed; */
+}
+
+.price-filter input,.size-filter input{
+    width: 100px;
+    margin-right: 5px;
 }
 
 .womenItem-main-con-2nd-div {
@@ -21,10 +34,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    /* position: relative; */
+    /* margin-left: 300px; */
 }
 
 .card-main {
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 

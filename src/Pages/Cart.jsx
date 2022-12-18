@@ -23,6 +23,7 @@ const Cart = () => {
   ))
   const navigat = useNavigate()
   const handleChange = () => {
+    // axios.delete(`https://product-list-api.onrender.com/cart/${ele.id}`)
     alert("Are you sure?!!")
     navigat('/address')
   }

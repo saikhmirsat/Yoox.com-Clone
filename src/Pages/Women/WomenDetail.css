@@ -1,4 +1,56 @@
 .womenDetail-1st-con {
+    
+    /* border: 1px red solid; */
+    width: 80%;
+    /* justify-content: center;
+    align-items: center; */
     display: grid;
+    margin: auto;
+    text-align: start;
     grid-template-columns: repeat(2, 1fr);
+    cursor: pointer;
+}
+
+.detail-bag-button{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+.detail-bag-button:hover{
+    color: gray;
+}
+
+.size-guide{
+    width: 500px;
+    height: 50px;
+    border: 1px gray solid;
+    /* border-style: inherit; */
+    margin: 10px 15px;
+}
+
+.size-guide-span{
+    text-decoration: underline;
+}
+/* .size-guide img{
+    margin-top: 2px;
+} */
+
+.dream-box{
+    width: 500px;
+    height: 50px;
+    margin: 10px 15px;
+    background-color: #f3f3f3;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+.dream-box p{
+    font-size: 12px;
 }

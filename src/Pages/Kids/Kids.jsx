@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Kids.css"
 import {GirlsCarousel,BoysCarousel} from './Girls_Boy_Carousel'
+import Footer from '../../Components/Footer/Footer'
 
 
 
@@ -160,7 +161,7 @@ export default function Kids() {
                 {/* Last Banner */}
 
                 <div className='bannerKids_Last' >
-                    <img src="https://www.yoox.com/images/yoox80/banners/6821_1_Alpine_Bottom_K.jpg?634485886869569819&impolicy=cropDefault&width=100%" alt="lastBanner" />
+                    <img src="https://www.yoox.com/images/yoox80/banners/6821_1_Alpine_Bottom_K.jpg?634485886869569819&impolicy=cropDefault&width=98%" alt="lastBanner" />
                     <div className="banner_Kids_Last" >
                         <h2>SNOWY ADVENTURES</h2>
                         <p>Cold-proof pieces for the streets to the slopes</p>
@@ -174,6 +175,8 @@ export default function Kids() {
 
 
             </div>
+            <hr style={{ marginTop:"100px", marginBottom:"60px"}} />
+            <Footer  /> 
         </>
     )
 }

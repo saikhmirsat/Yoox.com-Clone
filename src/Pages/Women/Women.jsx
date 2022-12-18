@@ -6,6 +6,7 @@ import { CarouselCard } from './CarouselCard'
 import { HiArrowLeft, HiArrowRight } from 'react-icons/hi2'
 import ImagePlusSlider from './Image-plus-slider'
 import { useNavigate } from 'react-router-dom'
+import Footer from '../../Components/Footer/Footer'
 
 
 export default function Women() {
@@ -124,7 +125,8 @@ export default function Women() {
 
 
 
-
+      <hr style={{marginBottom:"60px"}} />
+            <Footer  /> 
     </div>
 
   )
