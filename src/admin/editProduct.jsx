@@ -1,5 +1,5 @@
 import React, { useEffect,useState } from 'react'
-import { Navigate, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import "./editProduct.css"
 import axios from 'axios'
 import { Link } from 'react-router-dom'
@@ -28,7 +28,7 @@ const EditProduct = () => {
     const handleSubmit=(e)=>{
         e.preventDefault()
        
-            axios.patch(`https://product-list-api.onrender.com/products/${params.product_id}`,{
+            axios.patch(`http://localhost:5050/products/${params.product_id}`,{
                 title,
                 price,
                 type,
@@ -37,9 +37,6 @@ const EditProduct = () => {
                 image_3,
                 image_4,  
             })
-
-            alert("updated");
-          
        
     }
   return (

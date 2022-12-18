@@ -8,8 +8,8 @@ import axios from 'axios'
 export default function Register() {
     const navigate = useNavigate()
 
-    // const { Arr, setArr } = React.useContext(RegisterData)
-    // console.log(Arr)
+    
+    
 
     const [Arr, setArr] = useState([])
     const [firstName, setFirstName] = useState("")
