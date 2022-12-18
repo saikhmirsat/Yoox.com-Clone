@@ -19,6 +19,8 @@ import AdminIndex from '../admin/AdminIndex'
 import AddToCart from '../Pages/Men/AddToCart'
 
 import EditProduct from '../admin/editProduct'
+import WomenItems from '../Pages/Women/WomenItems'
+import WomenDetail from '../Pages/Women/WomenDetail'
 
 
 
@@ -28,6 +30,8 @@ export default function Allroutes() {
         <Routes>
             <Route path='/' element={<Women />}></Route>
             <Route path='/men' element={<Men />}></Route>
+            <Route path='/womenItem' element={<WomenItems />}></Route>
+            <Route path='/womenItem/:id' element={<WomenDetail />}></Route>
             <Route path='/kids' element={<Kids />}></Route>
             <Route path='/design' element={<Design />}></Route>
             <Route path='/wishlist' element={<Wishlist />}></Route>
