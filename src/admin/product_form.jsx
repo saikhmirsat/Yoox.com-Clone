@@ -75,6 +75,10 @@ const ProductDetails = () => {
     };
     const res=await  axios.post(`http://localhost:5050/products`,request)
     setData([...data,res])
+
+    alert("Product Added Succesfully")
+    window.location.reload()
+
   }
   // console.log(data);
   return (
