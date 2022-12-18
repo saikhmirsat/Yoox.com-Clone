@@ -1,4 +1,4 @@
-.product-container{
+.women-product-container{
     margin: 0;
     padding: 0;
     position: relative;
@@ -12,11 +12,11 @@
     /* background-color: white; */
 
 }
-.one-product-container{
+.women-one-product-container{
     margin: 0;
     padding: 0;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
@@ -26,7 +26,7 @@
     /* background-color: white; */
 }
 
-.product-slider{
+.women-product-slider{
     display: flex;
     gap: 12px;
     margin: 20px;
@@ -37,7 +37,7 @@
     margin-right: 10px;
     /* background-color: white; */
 }
-.one-product-slider{
+.women-one-product-slider{
     display: flex;
     gap: 12px;
     margin: 20px;
@@ -49,7 +49,7 @@
     /* background-color: white; */
 }
 
-.prev-btn, .next-btn{
+.women-prev-btn, .women-next-btn{
     position: absolute;
     width: 20px;
     height: 100%;
@@ -58,7 +58,7 @@
 
     
 }
-.one-prev-btn, .one-next-btn{
+.women-one-prev-btn, .women-one-next-btn{
     position: absolute;
     width: 20px;
     height: 100%;
@@ -67,15 +67,20 @@
 
     
 }
-
-.next-btn{
+.women-prev-btn{
+    left:0;
+}
+.women-one-prev-btn{
+    left:0;
+}
+.women-next-btn{
     right: 0;
 }
-.one-next-btn{
+.women-one-next-btn{
     right: 0;
 }
 
-.prev-btn p, .next-btn p{
+.women-prev-btn p, .women-next-btn p{
     width: 50px;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.836);
@@ -87,7 +92,7 @@
     bottom: 50px;
     
 }
-.one-prev-btn p, .one-next-btn p{
+.women-one-prev-btn p, .women-one-next-btn p{
     width: 50px;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.836);
@@ -100,46 +105,49 @@
     
 }
 
-.next-btn p{
+.women-next-btn p{
     right: 40px;
     color: white;
     font-size: 25px;
 }
-.one-next-btn p{
+.women-one-next-btn p{
     right: 40px;
     color: white;
     font-size: 25px;
 }
-.prev-btn p{
+.women-prev-btn p{
     right: 5px;
     color: white;
     font-size: 25px;
 }
-.one-prev-btn p{
+.women-one-prev-btn p{
     right: 5px;
     color: white;
     font-size: 25px;
 }
 
-.new-arrival-heading{
-    margin-left: 600px;
+.women-new-arrival-heading{
+    margin-left: 0;
+    /* text-align: center; */
     font-size: 24px;
     letter-spacing:2px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
-.view-all-heading{
-    margin-left: 655px;
+.women-view-all-heading{
+    /* margin-left: 650px; */
+    /* text-align: center; */
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
-.view-all-heading:hover{
+.women-view-all-heading:hover{
     color: gray;
 }
 
-.ONE-OF-A-KIND{
-    margin-left: 600px;
+.women-ONE-OF-A-KIND{
+    /* margin-left: 0 !important; */
+    text-align: center;
     font-size: 24px;
     letter-spacing:2px;
     font-family: 'Montserrat', sans-serif;

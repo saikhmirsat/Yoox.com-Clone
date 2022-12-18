@@ -86,7 +86,7 @@ const GirlsCarousel = () => {
 
       
       const ref = useRef(null); //ref to parent div
-      const box = document.getElementsByClassName("product-slider")
+      const box = document.getElementsByClassName("gb-product-slider")
       console.log("box",box)
       // console.log("box",box[0].clientWidth)
       useEffect(() =>{
@@ -114,14 +114,14 @@ const GirlsCarousel = () => {
       }
   return (
         <div>
-          <p className='new-arrival-heading' > NEW ARRIVALS GIRLS</p>
-          <a href="#" id='ujju' className='view-all-heading' > VIEW ALL</a>
-          <div className='product-container' >
+          <p className='gb-new-arrival-heading' > NEW ARRIVALS GIRLS</p>
+          <a href="#" id='ujju' className='gb-view-all-heading' > VIEW ALL</a>
+          <div className='gb-product-container' >
 
-              <button className="prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
-              <button className="next-btn" onClick={handleNextbtn} > <p  ><HiArrowRight/></p> </button>
+              <button className="gb-prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
+              <button className="gb-next-btn" onClick={handleNextbtn} > <p  ><HiArrowRight/></p> </button>
 
-              <div className="product-slider">
+              <div className="gb-product-slider">
                 {
                   girls_arrivals_data.map((item) => <CarouselCard key={item.id} img={item.img}
                   brand={item.brand} category={item.category} price={item.price} />)
@@ -212,7 +212,7 @@ const BoysCarousel = () =>{
     
   ]
 
-  const box = document.getElementsByClassName("one-product-slider");
+  const box = document.getElementsByClassName("gb-one-product-slider");
   console.log(box)
   const handlePrevbtn = () =>{
     const width = box[0].clientWidth;
@@ -231,14 +231,14 @@ const BoysCarousel = () =>{
 return (
   
       <div>
-      <p className='new-arrival-heading' > NEW ARRIVALS BOYS</p>
-      <a href="#" id='ujju' className='view-all-heading' > VIEW ALL</a>
-      <div className='product-container' >
+      <p className='gb-new-arrival-heading' > NEW ARRIVALS BOYS</p>
+      <a href="#" id='ujju' className='gb-view-all-heading' > VIEW ALL</a>
+      <div className='gb-product-container' >
 
-          <button className="prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
-          <button className="next-btn" onClick={handleNextbtn} > <p  ><HiArrowRight/></p> </button>
+          <button className="gb-prev-btn" onClick={handlePrevbtn} > <p  ><HiArrowLeft /></p> </button>
+          <button className="gb-next-btn" onClick={handleNextbtn} > <p  ><HiArrowRight/></p> </button>
 
-          <div className="one-product-slider">
+          <div className="gb-one-product-slider">
             {
               boys_arrivals_data.map((item) => <CarouselCard key={item.id} img={item.img}
               brand={item.brand} category={item.category} price={item.price} />)
