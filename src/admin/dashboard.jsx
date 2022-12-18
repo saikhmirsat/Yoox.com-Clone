@@ -6,25 +6,25 @@ import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
-  
+
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5050/products`)
+      .get(`https://product-list-api.onrender.com/products`)
       .then((res) => setData(res.data))
       .catch((err) => {
         console.log(err);
       });
   }, []);
 
-  const handleDelete=(id)=>{
-   axios.delete(`http://localhost:5050/products/${id}`)
-   .then(()=>{
-    alert("Product deleted")
-    window.location.reload()
-   })
+  const handleDelete = (id) => {
+    axios.delete(`https://product-list-api.onrender.com/products/${id}`)
+      .then(() => {
+        alert("Product deleted")
+        window.location.reload()
+      })
   }
- 
+
   return (
     <div>
       {/* <div>
@@ -46,8 +46,8 @@ const Dashboard = () => {
               <h3>${ele.price}</h3>
             </div>
             <div className="edit_btn">
-              <button onClick={()=>(handleDelete(ele.id))}>Delete</button>
-             <Link to={`/dashboard/${ele.id}`}><button>Edit</button></Link> 
+              <button onClick={() => (handleDelete(ele.id))}>Delete</button>
+              <Link to={`/dashboard/${ele.id}`}><button>Edit</button></Link>
             </div>
           </div>
         ))}
