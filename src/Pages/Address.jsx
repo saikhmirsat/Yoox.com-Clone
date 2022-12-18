@@ -11,7 +11,7 @@ const Address = () => {
     Navigate("/womenItem");
   };
   return (
-    <div style={{ alignItems: "center", margin: "auto" }}>
+    <div style={{ alignItems: "center", margin: "auto",marginBottom:"60px" }}>
       <div style={{ fontSize: "25px", marginTop: "40px" }}>Address</div>
       <div className="address">
         <form onSubmit={handleSubmit}>
