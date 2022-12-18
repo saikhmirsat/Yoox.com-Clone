@@ -15,6 +15,7 @@
    
     
 } */
+<<<<<<< HEAD
 .edit_btn button {
     width: 40%;
     font-size: 20px;
@@ -23,6 +24,13 @@
     background-color: #333333;
     color: white;
     border: none;
+=======
+.edit_btn>button{
+   width: 50%;
+   font-size: 20px;
+   padding: 9px;
+   cursor: pointer;
+>>>>>>> e112d748a25d77b990eddff5107c1767b069006b
 }
 
 /* .edit_btn>a>button {
