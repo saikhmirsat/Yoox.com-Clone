@@ -1,0 +1,33 @@
+.card-main {
+    border: 1px solid red;
+    line-height: 0;
+}
+
+.womenItme-main-con {
+    width: 90%;
+    margin: auto;
+    border: 1px solid green;
+    display: flex;
+    gap: 10px;
+}
+
+.womenItem-main-con-1st-div {
+    width: 25%;
+    border: 1px solid red;
+}
+
+.womenItem-main-con-2nd-div {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card-main {
+    border: 1px solid green;
+
+}
+
+.card-main>img {
+    width: 100%;
+}
