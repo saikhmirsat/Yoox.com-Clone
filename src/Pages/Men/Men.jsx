@@ -3,6 +3,7 @@ import WomenNavbar from './MenNavbar'
 import "../Women/women.css"
 import { MenCarousel, OneInAllCarousel } from './MenCarousel'
 import ImagePlusSlider from './Image-plus-slider'
+import Footer from '../../Components/Footer/Footer'
 
 export default function Women() {
 
@@ -109,7 +110,8 @@ export default function Women() {
         </div>
         
       
-      
+        <hr style={{marginBottom:"60px"}} />
+            <Footer  /> 
 
 
     </div>
