@@ -29,7 +29,7 @@ const Cart = () => {
   return (
     <div>
       <div>Cart</div>
-      <div>
+      <div style={{margin:"auto",width:"85%"}}>
         {cart.map((ele) => (
           <div
             key={ele.id}
@@ -38,6 +38,7 @@ const Cart = () => {
               height: "150px",
               justifyContent: "space-between",
               alignItems: "center",
+              
             }}
           >
             <img src={ele.image_1} height="100%" width="100px" alt="image" />
@@ -48,9 +49,9 @@ const Cart = () => {
         ))}
       </div>
       <hr />
-      <div style={{ textAlign: "right" }}>
-        <h2>Total price= {total}</h2>
-        <button onClick={handleChange}>Buy</button>
+      <div >
+        <h2 style={{ textAlign: "right",marginRight:"10%" }}>Total : ${total}</h2>
+        <button onClick={handleChange} style={{ marginBottom: "60px",padding:"2px 15px", fontSize:"20px" }}>Buy</button>
       </div>
     </div>
   );
