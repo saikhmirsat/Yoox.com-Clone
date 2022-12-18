@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { emptyCart } from "./Address";
+
 
 const Cart = () => {
   const [cart, setCart] = useState([]);
@@ -14,7 +14,6 @@ const Cart = () => {
 
   const removeProduct = (ele) => {
     axios.delete(`https://product-list-api.onrender.com/cart/${ele.id}`)
-    emptyCart(ele.id)
     alert("Product removed !")
   }
   let total = 0
