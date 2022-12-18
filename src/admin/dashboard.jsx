@@ -30,7 +30,7 @@ const Dashboard = () => {
       {/* <div>
         <AdminIndex />
       </div> */}
-      <h2>Dashboard</h2>
+      <h2 className="dash-con-header">Dashboard</h2>
       <hr />
 
       <div className="all_products">
@@ -46,7 +46,7 @@ const Dashboard = () => {
               <h3>${ele.price}</h3>
             </div>
             <div className="edit_btn">
-              <button onClick={() => (handleDelete(ele.id))}>Delete</button>
+              <button style={{ marginRight: '10px' }} onClick={() => (handleDelete(ele.id))}>Delete</button>
               <Link to={`/dashboard/${ele.id}`}><button>Edit</button></Link>
             </div>
           </div>

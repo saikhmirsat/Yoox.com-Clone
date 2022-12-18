@@ -4,12 +4,13 @@ import "./Register.css"
 // import { RegisterData } from '../Context/RegisterData'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import Footer from '../Components/Footer/Footer'
 
 export default function Register() {
     const navigate = useNavigate()
 
-    
-    
+
+
 
     const [Arr, setArr] = useState([])
     const [firstName, setFirstName] = useState("")

@@ -1,4 +1,4 @@
-.admin_heading{
+.admin_heading {
     display: flex;
     justify-content: space-around;
     background-color: teal;
@@ -6,27 +6,38 @@
     position: relative;
 }
 
-.admin_heading>a{
- font-size: 30px;
- text-decoration: none;
- color: white;
+.admin_heading>a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
 }
-.admin_heading>a:hover{
+
+.admin_heading>a:hover {
     color: red;
     cursor: pointer;
 }
-.admin_panel{
-display: flex;
-justify-content: space-between;
-padding: 10px;
+
+.admin_panel {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #F3F3F3;
 }
-.form{
-    border: 1px solid black;
+
+.form {
+    border: 2px solid rgb(186, 184, 184);
     padding: 10px;
     height: fit-content;
+    /* height: 100vh; */
+    background-color: white;
+
 }
-.dash{
-    border: 1px solid black;
+
+.dash {
+    border: 2px solid rgb(186, 184, 184);
+    background-color: white;
     width: 70%;
     padding: 10px;
 }

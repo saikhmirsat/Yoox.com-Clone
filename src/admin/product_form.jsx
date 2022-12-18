@@ -83,7 +83,7 @@ const ProductDetails = () => {
       {/* <div>
         <AdminIndex />
       </div> */}
-      <h2>Add products</h2>
+      <h2 className="prod-form-header">Add products</h2>
       <hr />
       <div className='product_details'>
         <form onSubmit={handleSubmit}>

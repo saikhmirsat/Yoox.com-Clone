@@ -1,8 +1,47 @@
-*{
+* {
     text-align: center;
 }
 
-.ediitngForm>label{
-display: block;
+.ediitngForm>label {
+    display: block;
 
+}
+
+.edit-prod-cpntainer {
+    border: 2px solid #333333;
+    padding: 10px;
+    border-radius: 2%;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.edit-prod-cpntainer>h1 {
+    background-color: #333333;
+    color: white;
+
+}
+
+.edit-prod-cpntainer label {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.edit-prod-cpntainer input {
+    width: 99%;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.edit-form-go-back {
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 10px;
 }

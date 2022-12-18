@@ -10,6 +10,7 @@ import { HiOutlineHeart } from 'react-icons/hi';
 import { BsPerson } from 'react-icons/bs';
 import { RiBookmark3Line } from 'react-icons/ri';
 import { GiThermometerScale } from 'react-icons/gi';
+import Footer from '../Components/Footer/Footer'
 
 
 
@@ -138,6 +139,7 @@ export default function Login() {
             <img src="https://www.yoox.com/images/yoox80/banners/6736_2_HOME_2_M.jpg?634485886601286852" alt="" />
           </div>
         </div>
+        <Footer />
       </div>
     )
   } else {
@@ -172,6 +174,7 @@ export default function Login() {
         </div>
         <p style={{ fontSize: '10px', marginBottom: '100px' }}>For more information, please consult the Privacy Policy</p>
         <div className='login-line-dotten'></div>
+        <Footer />
       </div>
     )
   }
