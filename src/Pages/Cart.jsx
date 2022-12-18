@@ -11,11 +11,13 @@ const Cart = () => {
       .then((res) => setCart(res.data));
   }, [cart]);
 
+
   const removeProduct = (ele) => {
 
 
     axios.delete(`https://product-list-api.onrender.com/cart/${ele.id}`)
     alert("Product removed !")
+    window.location.reload()
   }
   let total = 0
   cart.map((element) => (

@@ -18,9 +18,11 @@ export default function WomenItems() {
         GetData()
     }, [])
 
-    // const handleChange = () => {
-    //     navigate('/womenItem/:id')
-    // }
+    const resultArr = data.filter((ele) => {
+        return ele.for_whom == 'women'
+    })
+
+    console.log(resultArr)
 
     return (
         <div className='womenItme-main-con'>
