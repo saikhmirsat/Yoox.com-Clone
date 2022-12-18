@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const [cart, setCart] = useState([]);
@@ -20,6 +21,12 @@ const Cart = () => {
   cart.map((element) => (
     total += Number(element.price)
   ))
+  const navigat = useNavigate()
+  const handleChange = () => {
+    alert("Are you sure?!!")
+    navigat('/address')
+  }
+
   return (
     <div>
       <div>Cart</div>
@@ -44,7 +51,7 @@ const Cart = () => {
       <hr />
       <div style={{ textAlign: "right" }}>
         <h2>Total price= {total}</h2>
-        <button>Buy</button>
+        <button onClick={handleChange}>Buy</button>
       </div>
     </div>
   );
