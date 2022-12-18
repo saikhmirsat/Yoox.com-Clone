@@ -76,6 +76,7 @@ const ProductDetails = () => {
     const res=await  axios.post(`https://product-list-api.onrender.com/products`,request)
     setData([...data,res])
     alert("Product Added Succesfully")
+    window.location.reload()
   }
   // console.log(data);
   return (
