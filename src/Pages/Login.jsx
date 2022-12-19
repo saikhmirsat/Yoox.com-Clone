@@ -11,6 +11,7 @@ import { BsPerson } from 'react-icons/bs';
 import { RiBookmark3Line } from 'react-icons/ri';
 import { GiThermometerScale } from 'react-icons/gi';
 import Footer from '../Components/Footer/Footer'
+import { useNavigate } from 'react-router-dom'
 
 
 
@@ -58,6 +59,10 @@ export default function Login() {
     window.location.reload()
   }
 
+  const navgate = useNavigate()
+  const gotoRegister = () => {
+    navgate('/register')
+  }
 
 
   if (checkIsAuth === true) {
@@ -169,7 +174,7 @@ export default function Login() {
               <button style={{ backgroundColor: 'white', border: '2px solid rgb(224, 221, 221)' }}><img width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png" alt="" /></button>
             </div>
             <p>ARE YOU NEW TO YOOX?</p>
-            <button className='log-reg-btn'>REGISTER NOW</button>
+            <button onClick={gotoRegister} className='log-reg-btn'>REGISTER NOW</button>
           </div>
         </div>
         <p style={{ fontSize: '10px', marginBottom: '100px' }}>For more information, please consult the Privacy Policy</p>
