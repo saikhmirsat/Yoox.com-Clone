@@ -1,6 +1,6 @@
 # energized-rock-3853 (YOOX)
 
-This website is a clone of [YOOX](https://www.yoox.com/in/women).
+This website is a clone of [YOOX](https://www.yoox.com/in/women).<br/>
 Deployed Project Link - https://luminous-sprinkles-3af9e6.netlify.app/
 
 ## Collaboration Project
