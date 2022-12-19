@@ -18,7 +18,7 @@ export default function WomenItems() {
     const navigate = useNavigate()
     const [notFound, setNotFount] = useState(false)
 
-    // console.log(data)
+   
     const GetData = () => {
         axios.get(`https://mirsat-vercel-database.vercel.app/yooxData`)
             .then((res) => setData(res.data))
@@ -27,11 +27,8 @@ export default function WomenItems() {
         GetData()
     }, [])
 
-    // const resultArr = data.filter((ele) => {
-    //     return ele.for_whom == 'women'
-    // })
-
-    console.log(resultArr)
+   
+    
 
     const handlePriceApply = () =>{
         let filterdData = data.filter(item => (item.price>=Number(fromPrice) && item.price <= Number(toPrice)) );
@@ -79,7 +76,7 @@ export default function WomenItems() {
     const resultArr = data.filter((ele) => {
         return ele.for_whom == 'women'
     })
-    // console.log(resultArr)
+    
     return (
         <div>
             <div className='womenItme-main-con'>
@@ -118,8 +115,8 @@ export default function WomenItems() {
                         <img src={ele.image_1} alt="" />
                         <h5>{ele.title}</h5>
                         <p>{ele.type}</p>
-                        <h5>${ele.price}</h5>
-                        <p>{ele.size}</p>
+                        <h5> Price: ${ele.price}</h5>
+                        <p> Size: {ele.size}</p>
                     </Link>
                 )
                 }

@@ -36,14 +36,24 @@
     gap: 10px;
     /* position: relative; */
     /* margin-left: 300px; */
+    /* text-align: start; */
 }
 
 .card-main {
     /* border: 1px solid green; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-decoration: none;
+    color: #333333;
+    
 
 }
 
 .card-main>img {
     width: 100%;
 }
+/* .womenDetail-2nd-con{
+    text-align: start;
+}
+.womenDetail-2nd-con p{
+    display: inline-block;
+} */

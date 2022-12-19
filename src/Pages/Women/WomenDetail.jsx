@@ -48,7 +48,7 @@ export default function WomenDetail() {
 
 
         </div>
-        <div >
+        <div className='womenDetail-2nd-con'>
           <h4>{obj.title}</h4>
           <p>{obj.type}</p>
           <span style={{ color: 'grey', textDecorationLine: 'line-through' }}>US$388,00</span>
