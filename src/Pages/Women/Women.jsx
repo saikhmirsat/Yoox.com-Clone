@@ -5,17 +5,10 @@ import { WomenCarousel, OneInAllCarousel } from './WomenCarousel'
 import { CarouselCard } from './CarouselCard'
 import { HiArrowLeft, HiArrowRight } from 'react-icons/hi2'
 import ImagePlusSlider from './Image-plus-slider'
-import { useNavigate } from 'react-router-dom'
 import Footer from '../../Components/Footer/Footer'
 
 
 export default function Women() {
-
-  const navigate = useNavigate()
-
-  const viewallfunc = () => {
-    navigate('/womenItem')
-  }
 
 
   return (
@@ -65,7 +58,7 @@ export default function Women() {
             <p>GUCCI</p>
             <p>PRADA</p>
           </div>
-          <p className='view_all' onClick={viewallfunc} > View All </p>
+          <p className='view_all'  > View All </p>
         </div>
         <div className="designer-item">
           <img src="https://www.yoox.com/images/yoox80/banners/6824_1_XmasGift_W_MainMob.jpg?634485886601286852#width=430&height=600" alt="" />
@@ -125,8 +118,8 @@ export default function Women() {
 
 
 
-      <hr style={{marginBottom:"60px"}} />
-            <Footer  /> 
+      <hr style={{ marginBottom: "60px" }} />
+      <Footer />
     </div>
 
   )
