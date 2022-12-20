@@ -30,9 +30,8 @@
     border: 2px solid rgb(186, 184, 184);
     padding: 10px;
     height: fit-content;
-    /* height: 100vh; */
     background-color: white;
-
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .dash {
@@ -40,4 +39,27 @@
     background-color: white;
     width: 70%;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 650px){
+    .admin_panel {
+        /* border: 1px solid red; */
+        display: block;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        background-color: #F3F3F3;
+    }
+    .form{
+        width: 95%;
+        margin: auto;
+       
+    }
+    .dash{
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
 }

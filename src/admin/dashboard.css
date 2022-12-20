@@ -53,3 +53,21 @@
     color: white;
     padding: 10px;
 }
+
+@media (max-width: 880px){
+    .all_products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+  }
+
+  @media (max-width: 460px){
+    .all_products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+  }
