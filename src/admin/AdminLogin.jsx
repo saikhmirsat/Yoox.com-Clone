@@ -63,7 +63,7 @@ export default function AdminLogin() {
     }
 
     const registerFunc = () => {
-        navigate('/register')
+        navigate('/adminRegister')
     }
 
     if (checkIsAuth === true) {
