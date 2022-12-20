@@ -85,12 +85,12 @@
 
 @media screen and (max-width:480px) {
     .login-con {
-        border: 1px solid red;
-        width: 208%;
+        /* border: 1px solid red; */
+        width: 215%;
     }
 
     .login-main-con {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         flex-direction: column-reverse;
     }
 
