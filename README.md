@@ -1,5 +1,9 @@
 # energized-rock-3853 (YOOX)
 
+<h1>Description</h1>
+<p>New Arrivals Every Week to Reinvigorate your Wardrobe, Make the Most of it Now. Shop the Latest Designer Savings Now! A Wide Array of Brands. Secure Payment. Expert Customer Care. Highlights: Order Tracking Option Available, Newsletter Available.
+</p>
+
 This website is a clone of [YOOX](https://www.yoox.com/in/women).<br/>
 Deployed Project Link - https://luminous-sprinkles-3af9e6.netlify.app/
 
