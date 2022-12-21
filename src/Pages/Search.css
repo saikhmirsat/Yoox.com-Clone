@@ -15,3 +15,12 @@
 .search-card-main>img {
     width: 100%;
 }
+
+.searchbox {
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    border: 2px solid grey;
+    border-radius: 2px;
+    font-size: 20px;
+}

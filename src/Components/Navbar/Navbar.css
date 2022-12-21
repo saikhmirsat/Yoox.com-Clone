@@ -121,6 +121,11 @@
     .navbar-2-3rd-div {
         gap: 20px;
     }
+
+    .cart-value {
+        border: 1px solid white;
+        right: -42%;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -152,4 +157,10 @@
         /* border: 1px solid red; */
         font-size: 10px;
     }
+
+    .cart-value {
+        border: 1px solid rgb(249, 251, 249);
+        right: -114%;
+    }
+
 }

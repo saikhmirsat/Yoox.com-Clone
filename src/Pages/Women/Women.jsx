@@ -12,7 +12,7 @@ export default function Women() {
 
 
   return (
-    <div style={{ backgroundColor: "#f3f3f3" }} >
+    <div className='women-main-full-container' style={{ backgroundColor: "#f3f3f3" }} >
       <WomenNavbar />
 
 

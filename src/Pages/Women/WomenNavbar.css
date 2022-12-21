@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-
-.navbar-container{
+.navbar-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -25,12 +24,32 @@
     font-size: 11px;
 }
 
-.navbar-item:hover{
+.navbar-item:hover {
     color: gray;
     transition: all 0.5s ease-out;
 }
-#gift-guide{
+
+#gift-guide {
     background-color: #CA336E;
     line-height: 30px;
     padding: 5px 5px 5px 25px;
+}
+
+@media screen and (max-width:820px) {
+    .navbar-container {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .navbar-item {
+
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .navbar-container {
+        width: 100%;
+
+    }
 }

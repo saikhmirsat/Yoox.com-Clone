@@ -17,7 +17,7 @@ export default function Search() {
 
     return (
         <div>
-            <input type="text" onChange={(e) => setText(e.target.value)} />
+            <input className='searchbox' placeholder='Search Products' type="text" onChange={(e) => setText(e.target.value)} />
             {
                 text == "" ? "" : <div className='search-card-div'>
                     {
