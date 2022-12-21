@@ -270,7 +270,7 @@
 
     .women-main-full-container {
         /* border: 1px solid red; */
-        width: 279%;
+        width: 283%;
     }
 
     .navbar-2 {
@@ -281,7 +281,13 @@
         width: 272%;
     }
 
+    .women-ImagePlusSlider-container {
+        width: 80%;
+    }
 
+    .women-ImagePlusSlider-slider {
+        display: none;
+    }
 
 
 }

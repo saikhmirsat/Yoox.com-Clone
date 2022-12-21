@@ -25,11 +25,12 @@
     color: white;
     border: none;
 }
-.edit_btn>button{
-   width: 50%;
-   font-size: 20px;
-   padding: 9px;
-   cursor: pointer;
+
+.edit_btn>button {
+    width: 50%;
+    font-size: 20px;
+    padding: 9px;
+    cursor: pointer;
 
 
 }
@@ -54,20 +55,22 @@
     padding: 10px;
 }
 
-@media (max-width: 880px){
+@media (max-width: 880px) {
+
     .all_products {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         padding: 20px;
     }
-  }
+}
 
-  @media (max-width: 460px){
+@media (max-width: 460px) {
     .all_products {
+        /* border: 1px solid red; */
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         padding: 20px;
     }
-  }
+}

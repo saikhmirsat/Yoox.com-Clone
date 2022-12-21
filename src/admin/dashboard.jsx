@@ -26,7 +26,7 @@ const Dashboard = () => {
   }
 
   return (
-    <div>
+    <div className="dashboard-main-con">
       {/* <div>
         <AdminIndex />
       </div> */}
