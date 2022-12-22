@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Pages/Profile.css'
 import '../Pages/Login.css'
+import './AdminProfile.css'
 import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
@@ -68,11 +69,11 @@ export default function AdminLogin() {
 
     if (checkIsAuth === true) {
         return (
-            <div style={{ background: '#f3f3f3' }}>
+            <div className='Admin-profile-main-con' style={{ background: '#f3f3f3' }}>
                 <div className='Profile-1st-con'>
                     <div>
                         <h2>ADMIN YOOX</h2>
-                        <button onClick={dashboardFunc} style={{ backgroundColor: 'orange', marginBottom: '20px' }}>Goto Dashboard</button> <br />
+                        <button className='dashboad-btn-admin' onClick={dashboardFunc} style={{ backgroundColor: 'orange', marginBottom: '20px' }}>Goto Dashboard</button> <br />
                         <button onClick={logoutFunc}>Logout</button>
                         <p>This area of YOOX is designed exclusively for you</p>
                     </div>
@@ -146,6 +147,7 @@ export default function AdminLogin() {
                         <img src="https://www.yoox.com/images/yoox80/banners/6736_2_HOME_2_M.jpg?634485886601286852" alt="" />
                     </div>
                 </div>
+                <br />
                 <Footer />
             </div>
         )
@@ -181,6 +183,7 @@ export default function AdminLogin() {
                 </div>
                 <p style={{ fontSize: '10px', marginBottom: '100px' }}>For more information, please consult the Privacy Policy</p>
                 <div className='login-line-dotten'></div>
+                <Footer />
             </div>
         )
     }

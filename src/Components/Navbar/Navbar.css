@@ -130,6 +130,7 @@
 
 @media screen and (max-width:480px) {
     .navbar-1 {
+        /* display: block; */
         /* border: 1px solid red; */
         font-size: 8px;
         width: 210%;
@@ -142,6 +143,7 @@
     .navbar-2 {
         /* border: 1px solid red; */
         width: 205%;
+        /* display: none; */
     }
 
     .navbar-2-1st-div>a>h3 {
@@ -160,7 +162,7 @@
 
     .cart-value {
         border: 1px solid rgb(249, 251, 249);
-        right: -114%;
+        right: -181%;
     }
 
 }

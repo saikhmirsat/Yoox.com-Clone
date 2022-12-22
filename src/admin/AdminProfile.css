@@ -1,0 +1,33 @@
+.Admin-profile-main-con {
+    /* border: 1px solid red; */
+}
+
+@media (max-width:820px) {
+    .Admin-profile-main-con {
+        /* border: 1px solid red; */
+        width: 143%;
+    }
+}
+
+@media (max-width:480px) {
+    .Admin-profile-main-con {
+        /* border: 1px solid red; */
+        width: 283%;
+    }
+
+    /* .dashboad-btn-admin {
+        border: 1px solid red;
+        width: 100%;
+    } */
+
+
+    .Profile-1st-con>div {
+        /* border: 1px solid red; */
+
+    }
+
+    .Profile-1st-con>div>button {
+        /* border: 1px solid red; */
+        width: 60%;
+    }
+}

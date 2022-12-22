@@ -76,4 +76,7 @@
         padding: 0px;
     }
 
+    .womenItem-main-con-2nd-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

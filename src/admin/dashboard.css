@@ -73,4 +73,14 @@
         gap: 20px;
         padding: 20px;
     }
+
+    .product_image {
+        /* border: 1px solid red; */
+        height: 700px;
+    }
+
+    .product_image>img {
+        width: 100%;
+        height: 100%;
+    }
 }
