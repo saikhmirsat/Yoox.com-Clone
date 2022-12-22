@@ -39,7 +39,7 @@ export default function WomenDetail() {
 
 
   return (
-    <div>
+    <div className='womenDetail-main-container'>
       <img src="https://www.yoox.com/images/yoox80/banners/6971_2_TOP_DM_ROWHK_W.png?634485886601286852" alt="" />
       <div className='womenDetail-1st-con'>
         <div>

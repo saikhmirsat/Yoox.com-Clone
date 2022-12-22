@@ -1,5 +1,5 @@
 .womenDetail-1st-con {
-    
+
     /* border: 1px red solid; */
     width: 80%;
     /* justify-content: center;
@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-.detail-bag-button{
+.detail-bag-button {
     width: 500px;
     height: 50px;
     margin-top: 10px;
@@ -20,11 +20,11 @@
     cursor: pointer;
 }
 
-.detail-bag-button:hover{
+.detail-bag-button:hover {
     color: gray;
 }
 
-.size-guide{
+.size-guide {
     width: 500px;
     height: 50px;
     border: 1px gray solid;
@@ -32,14 +32,15 @@
     margin: 10px 15px;
 }
 
-.size-guide-span{
+.size-guide-span {
     text-decoration: underline;
 }
+
 /* .size-guide img{
     margin-top: 2px;
 } */
 
-.dream-box{
+.dream-box {
     width: 500px;
     height: 50px;
     margin: 10px 15px;
@@ -51,6 +52,31 @@
     margin-bottom: 80px;
 
 }
-.dream-box p{
+
+.dream-box p {
     font-size: 12px;
+}
+
+@media (max-width:820px) {
+    .womenDetail-main-container {
+        /* border: 1px solid red; */
+        width: 143%;
+    }
+}
+
+@media (max-width:480px) {
+    .womenDetail-main-container {
+        /* border: 1px solid red; */
+        width: 282%;
+    }
+
+    /* .womenDetail-1st-con {
+        grid-template-columns: repeat(1, 1fr);
+    } */
+
+    /* .womenDetail-2nd-con {
+        text-align: center;
+        border: 1px solid red;
+        
+    } */
 }

@@ -78,7 +78,7 @@ export default function WomenItems() {
     })
     
     return (
-        <div>
+        <div className='women-head-container'>
             <div className='womenItme-main-con'>
             <div className='womenItem-main-con-1st-div'>
                 <h1>Filter</h1>

@@ -1,20 +1,24 @@
-.address{
-margin: auto;
-margin-top: 30px;
+.address {
+    margin: auto;
+    margin-top: 30px;
 }
-.address>form{
- border: 1px solid black;
- padding: 20px;
- margin: auto;
- width: fit-content;
+
+.address>form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
 }
-.address>form>label{
+
+.address>form>label {
     margin: auto;
     display: block;
     margin-top: 10px;
     text-align: left;
 }
-.address>form>input[type="submit"]{
-   margin-top: 10px;
-font-size: 22px;
+
+.address>form>input[type="submit"] {
+    margin-top: 10px;
+    font-size: 22px;
 }
